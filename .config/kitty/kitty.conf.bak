@@ -1,0 +1,19 @@
+include             current-theme.conf
+# font_family         ZedMono Nerd Font
+# bold_font           ZedMono Nerd Font
+# italic_font         auto
+# bold_italic_font    auto
+font_size           16.0
+
+tab_bar_style       powerline
+# tab_bar_background  none
+
+map ctrl+shift+d    new_tab_with_cwd
+
+
+# BEGIN_KITTY_FONTS
+font_family      family='ZedMono Nerd Font' style=Bold
+bold_font        family='ZedMono Nerd Font' style=ExtraBold
+italic_font      family='ZedMono Nerd Font' style='Bold Italic'
+bold_italic_font family='ZedMono Nerd Font' style='ExtraBold Italic'
+# END_KITTY_FONTS

@@ -1,0 +1,9 @@
+rofi doesnt symlink tooo cleanly
+make sure you get the correct version of rofi btw (wayland)
+
+symlink config.rasi to ~/.config/rofi/
+symlink the colours file to ~/
+symlink rofimoji to ~/.config/
+symlink rofi-rbw to ~/.config/
+
+the colours file will be stored in this directory in the dotfiles repo for cleanliness

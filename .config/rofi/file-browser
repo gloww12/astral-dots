@@ -1,0 +1,4 @@
+# wip
+cmd         "kitty -e xdg-open"
+dir         "/home/glow"
+# toggle hidden with alt+2

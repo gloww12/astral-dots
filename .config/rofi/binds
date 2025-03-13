@@ -1,0 +1,26 @@
+A | standard binds
+B | rofi-bluetooth
+C | clipboard
+D | rofi 
+E | rofimoji
+F | rofi files (bugged)
+G 
+H | hypr - <
+I | hypridle
+J | hypr - v
+K | [hypr - ^, (S,C,A)exit]
+L | [hypr, (C) lock]
+M | hypr - max
+N | do not disturb toggle
+O | hypr - opaque
+P | hyprpicker toggler
+Q | hypr - kill
+R | hypr - rotate split
+S | hyprsunset toggler
+T | [hypr, (C,A)kitty]
+U | rofi bitwarden
+V | mullvad toggler
+W
+Z
+Y
+Z | deco toggler

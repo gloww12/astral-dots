@@ -1,0 +1,157 @@
+@import "colours.css";
+@import "workspaces.css";
+
+* {
+  font-family: Zed Sans;
+  font-size: 18px;
+}
+
+window#waybar {
+  transition-property:  background-color;
+  background-color:     transparent;
+  transition-duration:  0.5s;
+}
+.modules-left {
+    background-color: transparent;
+}
+.modules-right {
+    background-color: transparent;
+}
+.modules-center {
+    background-color: @base;
+    border-radius:    8px;
+}
+
+#temperature,
+#battery,
+#cpu,
+#memory,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#bluetooth,
+#mpd 
+#window,
+#pulseaudio,
+#clock,
+#cava,
+#workspaces {
+  border-radius: 8px;
+}
+
+#pulseaudio {
+    background-color: @blue;
+    color:            @base;
+    padding:          0px 10px 0px 10px;
+}
+
+#pulseaudio.muted {
+    background-color:   @base;
+    color:              @text;
+}
+
+#mpris{
+    color:            @base;
+    background-color: @pink;
+    border-radius:    8px;
+    padding:          0px 10px 0px 10px;
+}
+
+#cpu {
+  background-color: @red;
+  color:            @base;
+  padding:          0px 10px 0px 10px;
+}
+
+#backlight {
+  background-color: @yellow;
+  color:            @base;
+  padding:          0px 10px 0px 10px;
+}
+
+#clock {
+  color:    @text;
+  padding:  0px 10px 0px 10px;
+}
+
+#tray {
+    background-color: @base;
+    padding:          0px 10px 0px 10px;
+}
+
+#memory {
+    background-color: @green;
+    padding:          0px 10px 0px 10px;
+    color:            @base;
+}
+
+#battery {
+    color:            @text;
+    padding:          0px 10px 0px 10px;
+    background-color: @base;
+}
+
+#battery.charging,
+#battery.full,
+#battery.plugged {
+  color:            @base;
+  background-color: @teal;
+}
+
+@keyframes blink {
+  to {
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #abb2bf;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color:                    #f53c3c;
+  animation-name:             blink;
+  animation-duration:         0.5s;
+  animation-timing-function:  linear;
+  animation-iteration-count:  infinite;
+  animation-direction:        alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect:   highlight;
+  background-color: #f38ba8;
+}
+
+#custom-caps {
+  background-color: @red;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}
+
+#custom-idle {
+  background-color: @teal;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}
+
+#custom-sunset {
+  background-color: @peach;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}
+
+#custom-dnd {
+  background-color: @red;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}

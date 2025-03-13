@@ -1,0 +1,12 @@
+F1  | vol mute
+F2  | vol down
+F3  | vol up
+F4  | media back
+F5  | media pause/play
+F6  | media skip
+F7  | brightness down
+F8  | brightness up
+F9  | does what it pleases, best left alone
+F10 | FLIGHT MODE BE CAREFUL
+F11 | [print, (shift)swappy print]
+F12 | [nvim configs, (shift)nvim nix config]

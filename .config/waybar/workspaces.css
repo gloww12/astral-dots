@@ -1,0 +1,25 @@
+@import "colours.css";
+
+#workspaces {
+  background-color: @base;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @yellow;
+    background-color: @base;
+    border-radius: 8px;
+}
+
+#workspaces button.empty {
+    color: @text;
+}
+
+#workspaces button.active {
+    color: @mauve;
+}
+
+#workspaces button.urgent {
+    background-color: @mauve;
+    color: @yellow;
+}

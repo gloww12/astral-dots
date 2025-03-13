@@ -1,0 +1,19 @@
+[global]
+frame_color     = "#f9e2af"
+separator_color = frame
+font            = Zed sans
+corner_radius   = 8
+corners         = "all"
+
+[urgency_low]
+background      = "#1e1e2e"
+foreground      = "#cdd6f4"
+
+[urgency_normal]
+background      = "#1e1e2e"
+foreground      = "#cdd6f4"
+
+[urgency_critical]
+background      = "#1e1e2e"
+foreground      = "#cdd6f4"
+frame_color     = "#f38ba8"
