@@ -2,6 +2,8 @@
 
 ![desktop screenshot](./assets/desktop.png)
 
+---
+
 Dotfiles for my setup using [Hyprland](https://hyprland.org/) on [Arch](https://archlinux.org/)
 
 Primarily based on the [Catppuccin](https://catppuccin.com/) colour scheme
@@ -16,10 +18,16 @@ this repo has my configs for:
 - [waybar](https://github.com/Alexays/Waybar)
 - [starship](https://starship.rs/)
 
-screenshots:
+and some others.
+
+---
+
+## screenshots:
 ![nvim screenshot 1](./assets/nvim-1.png)
 ![nvim screenshot 2](./assets/nvim-2.png)
 
-and some others.
+---
+
+The font im using is [zed](https://github.com/zed-industries/zed-fonts) (sans and mono)
 
 This is mainly for me, but if you want to use it and modify it for yourself you're absolutely welcome!
