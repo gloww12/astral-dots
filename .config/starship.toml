@@ -6,7 +6,7 @@ $sudo$character
 """
 
 [character]
-format = '🌙 [>](green) '
+format = '🪼 [>](green) '
 
 [sudo]
 format = '$symbol'
