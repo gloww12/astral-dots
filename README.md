@@ -6,7 +6,7 @@
 
 Dotfiles for my setup using [Hyprland](https://hyprland.org/) on [Arch](https://archlinux.org/)
 
-Primarily based on the [Catppuccin](https://catppuccin.com/) colour scheme
+Primarily based on the [Catppuccin mocha](https://catppuccin.com/) colour scheme
 
 this repo has my configs for:
 - [fish (with fisher)](https://fishshell.com/)
