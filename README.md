@@ -1,4 +1,4 @@
-# 🌙 astral dots repo 🌙
+# 🌙 🪼 astral dots repo 🪼 🌙
 
 ![desktop screenshot](./assets/desktop.png)
 
