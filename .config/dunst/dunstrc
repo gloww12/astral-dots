@@ -1,7 +1,7 @@
 [global]
 frame_color     = "#f9e2af"
 separator_color = frame
-font            = Zed sans
+font            = Fairiesevka Nerd Font
 corner_radius   = 8
 corners         = "all"
 

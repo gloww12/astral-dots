@@ -28,6 +28,6 @@ and some others.
 
 ---
 
-The font im using is [zed](https://github.com/zed-industries/zed-fonts) (sans and mono)
+The font im using is [Fairiesevka](https://github.com/punkfairie/Fairiesevka)
 
 This is mainly for me, but if you want to use it and modify it for yourself you're absolutely welcome!

@@ -10,8 +10,11 @@
   "icon_theme": "Catppuccin Mocha",
   "base_keymap": "JetBrains",
   "vim_mode": true,
-  "ui_font_size": 16,
+  "ui_font_size": 18,
   "buffer_font_size": 16,
+  "buffer_font_family": "FairiesevkaTerm Nerd Font Mono",
+  "buffer_font_features": { "calt": false },
+  "ui_font_family": "Fairiesevka Nerd Font",
   "tab_size": 2,
   "theme": {
     "mode": "system",
