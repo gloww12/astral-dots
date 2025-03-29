@@ -5,6 +5,7 @@ alias sysup="paru"
 alias paur="sl"
 alias tetris="sl"
 alias pcaman='sl'
+alias :w='sl'
 alias claer='sl'
 
 alias orpheus='cd /home/glow/OrpheusDL && python orpheus.py'
@@ -28,6 +29,8 @@ alias p='paru'
 alias poo='paru'
 alias pee='paru'
 alias md='mkdir -p'
+alias nuke='pkill -KILL'
+alias r='rvm > /dev/null'
 
 export EDITOR=nvim
 export VISUAL=nvim

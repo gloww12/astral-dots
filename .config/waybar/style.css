@@ -65,18 +65,19 @@ window#waybar {
 }
 
 #backlight {
-  background-color: @yellow;
-  color:            @base;
+  background-color: @surface0;
+  color:            @text;
   padding:          0px 10px 0px 10px;
 }
 
 #clock {
-  color:    @text;
+  background-color: @mauve;
+  color:    @base;
   padding:  0px 10px 0px 10px;
 }
 
 #tray {
-    background-color: @base;
+    background-color: @surface0;
     padding:          0px 10px 0px 10px;
 }
 
@@ -89,7 +90,7 @@ window#waybar {
 #battery {
     color:            @text;
     padding:          0px 10px 0px 10px;
-    background-color: @base;
+    background-color: @surface0;
 }
 
 #battery.charging,
@@ -129,14 +130,14 @@ label:focus {
 }
 
 #custom-caps {
-  background-color: @red;
+  background-color: @yellow;
   border-radius:    8px;
   padding:          0px 10px 0px 10px;
   color:            @base;
 }
 
 #custom-idle {
-  background-color: @teal;
+  background-color: @surface0;
   border-radius:    8px;
   padding:          0px 10px 0px 10px;
   color:            @base;

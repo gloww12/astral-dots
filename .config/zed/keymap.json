@@ -7,6 +7,11 @@
 // from the command palette.
 [
   {
+    "bindings": {
+      "ctrl-o": "editor::OpenSelectedFilename"
+    }
+  },
+  {
     "context": "Workspace",
     "bindings": {}
   },
