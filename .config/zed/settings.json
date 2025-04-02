@@ -21,7 +21,7 @@
   "tab_size": 2,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Mocha - No Italics",
+    "light": "Catppuccin Mocha",
     "dark": "Catppuccin Mocha - No Italics"
   },
   "telemetry": {

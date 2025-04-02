@@ -8,6 +8,8 @@ alias pcaman='sl'
 alias :w='sl'
 alias claer='sl'
 
+alias 'sl'='/home/glow/.config/fish/randsl.sh'
+
 alias orpheus='cd /home/glow/OrpheusDL && python orpheus.py'
 alias v="vim"
 alias sv="EDITOR=vim sudoedit"
@@ -31,11 +33,14 @@ alias pee='paru'
 alias md='mkdir -p'
 alias nuke='pkill -KILL'
 alias r='rvm > /dev/null'
+alias s='source /home/glow/.config/fish/config.fish'
 
 export EDITOR=nvim
 export VISUAL=nvim
-export BUNDLE_PATH=/home/glow/.gems
-export GEM_HOME=/home/glow/.gems
+# export GEM_HOME='/home/glow/.gems/'
+# export GEM_PATH='/home/glow/.gems/'
+# export BUNDLE_PATH='/home/glow/.gems/'
+# export BUNDLE_HOME='/home/glow/.gems/'
 
 #zoxide init --cmd cd fish | source
 zoxide init fish | source
@@ -73,4 +78,3 @@ else
     exec uwsm start hyprland.desktop
   end
 end
-# rvm default
