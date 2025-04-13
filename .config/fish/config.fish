@@ -21,7 +21,8 @@ alias python="/home/glow/pyvenv/bin/python"
 alias pip="/home/glow/pyvenv/bin/pip"
 alias fuck='paru -Rns'
 alias rvd='rvm default'
-alias ber='bundle exec rails'
+alias ber='bundle exec rubocop'
+alias be='bundle exec'
 alias br='bin/rails'
 alias please='sudo'
 alias mods='sudo'
@@ -34,6 +35,7 @@ alias md='mkdir -p'
 alias nuke='pkill -KILL'
 alias r='rvm > /dev/null'
 alias s='source /home/glow/.config/fish/config.fish'
+alias uvpn='sudo openfortivpn remoteaccess.shef.ac.uk -u ach22jc'
 
 export EDITOR=nvim
 export VISUAL=nvim

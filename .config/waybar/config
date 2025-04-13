@@ -57,7 +57,7 @@
       "format-stopped": "",
       "dynamic-order": ["title","artist"],
       "tooltip-format": "{player} ({status}) | {dynamic}",
-      "ignored-players": ["firefox"],
+      "ignored-players": ["firefox", "Blanket", "chromium"],
       "max-length": 60,
       "on-click": "playerctl play-pause"
     },
