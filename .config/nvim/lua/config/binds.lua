@@ -1,5 +1,8 @@
 local map = vim.keymap.set
 
+map('n', '<C-c>', '<cmd>EagleWin<CR>', {noremap = true, silent = true})
+map('n', '<Tab>', ':EagleWin<CR>', { noremap = true, silent = true })
+map('n', '<Esc>', ':EagleWinToggleHeaders<CR>')
 
 map('n', ';', ':')
 map('n', '<C-t>', '<cmd>ToggleTerm<CR>')
@@ -10,7 +13,7 @@ map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
 map('n', '<C-l>', '<C-w>l')
 
-map('n', 'qq', 
+map('n', 'q!',
   function()
     vim.cmd('NvimTreeClose')
     vim.cmd('q')

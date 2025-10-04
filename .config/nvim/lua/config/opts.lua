@@ -1,7 +1,9 @@
-vim.opt.tabstop = 2  
-vim.opt.shiftwidth = 2
-vim.opt.expandtab = true
+local v = vim
+v.opt.tabstop = 2
+v.opt.shiftwidth = 2
+v.opt.expandtab = true
 
-vim.cmd.colorscheme 'catppuccin'
-vim.wo.number = true
-vim.o.clipboard = 'unnamedplus'
+v.cmd.colorscheme 'catppuccin'
+v.wo.number = true
+v.o.clipboard = 'unnamedplus'
+v.o.mousemoveevent = true

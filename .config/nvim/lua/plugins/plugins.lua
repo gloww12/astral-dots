@@ -1,5 +1,8 @@
 return {
 
+  -- treesitter 
+  { 'nvim-treesitter/nvim-treesitter' },
+
   -- telescope for file/word find
   { 'nvim-telescope/telescope.nvim' },
 
@@ -29,6 +32,24 @@ return {
 
   -- LSP server manager
   { 'mason-org/mason.nvim' },
+  {
+      'mason-org/mason-lspconfig.nvim',
+      opts = {},
+      dependencies = {
+          { "mason-org/mason.nvim", opts = {} },
+          "neovim/nvim-lspconfig",
+      },
+  },
+
+  -- lsp context popup
+  {
+    'soulis-1256/eagle.nvim',
+    opts = {
+      keyboard_mode = true,
+      mouse_mode = true,
+      detect_idle_timer = 3,
+    }
+  },
 
   -- completions (WIP)
   {
@@ -51,7 +72,7 @@ return {
   },
 
   -- startup screen
-  { 
+  {
     'nvimdev/dashboard-nvim',
     opts = {
       theme = 'doom',
@@ -82,7 +103,7 @@ return {
   },
 
   -- highlights word under cursor
-  { 
+  {
     'ya2s/nvim-cursorline',
     opts = {
       cursorline = {
@@ -119,7 +140,7 @@ return {
   },
 
   -- keybind screen on keypress
-  { 
+  {
     'nvim-tree/nvim-tree.lua',
     version = '*',
     lazy = false,
@@ -128,11 +149,11 @@ return {
     },
     config = function()
       require('nvim-tree').setup {}
-    end, 
+    end,
   },
 
   -- cursor smear
-  { 
+  {
     "sphamba/smear-cursor.nvim",
     opts = {
       smear_between_buffers = true,
