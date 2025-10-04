@@ -28,10 +28,7 @@ return {
   { 'lewis6991/gitsigns.nvim' },
 
   -- LSP server manager
-  { 
-    'mason-org/mason.nvim',
-    opts = {},
-  },
+  { 'mason-org/mason.nvim' },
 
   -- completions (WIP)
   {

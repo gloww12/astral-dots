@@ -13,7 +13,6 @@ this repo has my configs for:
 - [hyprland](https://hyprland.org/)
 - [kitty](https://sw.kovidgoyal.net/kitty/)
 - [neovim](https://neovim.io/)
-  - just my options for [NvChad](https://nvchad.com/)
 - [rofi (wayland)](https://github.com/davatorium/rofi)
 - [waybar](https://github.com/Alexays/Waybar)
 - [starship](https://starship.rs/)
