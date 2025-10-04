@@ -1,0 +1,4 @@
+- image preview potentially
+- telescope
+- nvim tree (keybinds)
+- completions
