@@ -1,23 +1,39 @@
 return {
 
+  -- telescope for file/word find
   { 'nvim-telescope/telescope.nvim' },
 
+  -- LSP (WIP)
   { 'neovim/nvim-lspconfig' },
 
+  -- theme
   { 'catppuccin/nvim' },
 
+  -- statusline
   { 'nvim-lualine/lualine.nvim' },
 
+  -- image preview (not working i think)
   { '3rd/image.nvim' },
 
+  -- cheatsheet for keybinds
   { 'doctorfree/cheatsheet.nvim' },
 
+  -- toggleable terminal
   { 'akinsho/toggleterm.nvim', config = true },
 
+  -- rainbow brackets
   { 'HiPhish/rainbow-delimiters.nvim' },
 
-  { 'swaits/universal-clipboard.nvim' },
+  -- git blame
+  { 'lewis6991/gitsigns.nvim' },
 
+  -- LSP server manager
+  { 
+    'mason-org/mason.nvim',
+    opts = {},
+  },
+
+  -- completions (WIP)
   {
     "hrsh7th/nvim-cmp",
     version = false, -- last release is way too old
@@ -37,6 +53,7 @@ return {
     dependencies = { "rafamadriz/friendly-snippets" },
   },
 
+  -- startup screen
   { 
     'nvimdev/dashboard-nvim',
     opts = {
@@ -83,6 +100,7 @@ return {
     }
   },
 
+  -- highlights word under cursor
   { 
     'ya2s/nvim-cursorline',
     opts = {
@@ -99,6 +117,7 @@ return {
     },
   },
 
+  -- colour preview on hex codes
   {
       "catgoose/nvim-colorizer.lua",
       event = "BufReadPre",
@@ -107,11 +126,6 @@ return {
   {
     "folke/which-key.nvim",
     event = "VeryLazy",
-    opts = {
-      -- your configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
-    },
     keys = {
       {
         "<leader>?",
@@ -123,6 +137,7 @@ return {
     },
   },
 
+  -- keybind screen on keypress
   { 
     'nvim-tree/nvim-tree.lua',
     version = '*',
@@ -135,6 +150,7 @@ return {
     end, 
   },
 
+  -- cursor smear
   { 
     "sphamba/smear-cursor.nvim",
     opts = {
@@ -146,11 +162,13 @@ return {
     },
   },
 
+  -- autopair brackets
   {
     'windwp/nvim-autopairs',
     event = "InsertEnter",
     config = true
   },
 
+  -- autopair tags
   { 'windwp/nvim-ts-autotag' },
 }
