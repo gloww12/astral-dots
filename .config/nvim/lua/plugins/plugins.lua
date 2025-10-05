@@ -6,8 +6,29 @@ return {
   -- telescope for file/word find
   { 'nvim-telescope/telescope.nvim' },
 
-  -- LSP (WIP)
+  --
+  -- LSP
+  --
   { 'neovim/nvim-lspconfig' },
+
+  -- LSP server manager
+  { 'mason-org/mason.nvim' },
+  {
+      'mason-org/mason-lspconfig.nvim',
+      opts = {},
+      dependencies = {
+          { "mason-org/mason.nvim", opts = {} },
+          "neovim/nvim-lspconfig",
+      },
+  },
+  {
+    'soulis-1256/eagle.nvim',
+    opts = {
+      keyboard_mode = true,
+      mouse_mode = true,
+      detect_idle_timer = 3,
+    }
+  },
 
   -- theme
   { 'catppuccin/nvim' },
@@ -30,32 +51,16 @@ return {
   -- git blame
   { 'lewis6991/gitsigns.nvim' },
 
-  -- LSP server manager
-  { 'mason-org/mason.nvim' },
-  {
-      'mason-org/mason-lspconfig.nvim',
-      opts = {},
-      dependencies = {
-          { "mason-org/mason.nvim", opts = {} },
-          "neovim/nvim-lspconfig",
-      },
-  },
-
-  -- lsp context popup
-  {
-    'soulis-1256/eagle.nvim',
-    opts = {
-      keyboard_mode = true,
-      mouse_mode = true,
-      detect_idle_timer = 3,
-    }
-  },
-
   -- completions (WIP)
   {
+    'Saghen/blink.cmp',
+    dependencies = { 'rafamadriz/friendly-snippets' },
+    version = '1.*',
+    opts = {},
+  },
+
+  {
     "hrsh7th/nvim-cmp",
-    version = false, -- last release is way too old
-    event = "InsertEnter",
     dependencies = {
       "hrsh7th/cmp-nvim-lsp",
       "hrsh7th/cmp-buffer",

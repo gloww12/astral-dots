@@ -2,6 +2,12 @@ local map = vim.keymap.set
 
 -- generic
 map('n', ';', ':')
+map('n', '<Esc>',
+  function()
+    vim.cmd('EagleWinToggleHeaders')
+    vim.cmd('noh')
+  end
+)
 
 -- terminal
 map('n', '<C-t>', '<cmd>ToggleTerm<CR>')
@@ -10,7 +16,6 @@ map('t', '<Esc>', '<C-\\><C-n>')
 -- lsp popups
 map('n', '<C-c>', '<cmd>EagleWin<CR>', { noremap = true, silent = true })
 map('n', '<Tab>', ':EagleWin<CR>', { noremap = true, silent = true })
-map('n', '<Esc>', ':EagleWinToggleHeaders<CR>')
 
 -- pane movement
 map('n', '<C-h>', '<C-w>h')
