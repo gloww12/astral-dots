@@ -23,21 +23,23 @@ map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
 map('n', '<C-l>', '<C-w>l')
 
-map('n', 'q!',
-  function()
-    vim.cmd('NvimTreeClose')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    vim.cmd('q')
-    -- it works ok dont judge me ;-;
-  end
-)
+--  JUST USE :qa INSTEAD (ty areeb 🫶)
+--
+-- map('n', 'q!',
+--   function()
+--     vim.cmd('NvimTreeClose')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     vim.cmd('q')
+--     -- it works ok dont judge me ;-;
+--   end
+-- )
 
 -- nvimtree
 map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
