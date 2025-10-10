@@ -21,6 +21,7 @@ return {
           "neovim/nvim-lspconfig",
       },
   },
+
   {
     'soulis-1256/eagle.nvim',
     opts = {
@@ -56,7 +57,14 @@ return {
     'Saghen/blink.cmp',
     dependencies = { 'rafamadriz/friendly-snippets' },
     version = '1.*',
-    opts = {},
+    opts = {
+      keymap = {
+        preset = 'enter',
+        ['<Tab>'] = { 'select_next', 'fallback' },
+        ['<S-Tab>'] = { 'select_prev', 'fallback' },
+        -- ['<Esc>'] = { 'cancel', 'fallback' }, -- unwise 
+      },
+    },
   },
 
   {
@@ -178,4 +186,22 @@ return {
 
   -- autopair tags
   { 'windwp/nvim-ts-autotag' },
+
+  -- blackjack
+  { 'alanfortlink/blackjack.nvim'},
+
+  -- indent plugin
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    ---@module "ibl"
+    ---@type ibl.config
+    opts = {},
+  },
+
+  -- cleaner folds
+  { 'kevinhwang91/nvim-ufo' },
+
+  -- fold colours
+  { 'emiasims/foldhue.nvim' },
 }

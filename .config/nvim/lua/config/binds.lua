@@ -9,6 +9,8 @@ map('n', '<Esc>',
   end
 )
 
+map('i', '<S-Tab>', '<C-d>')
+
 -- terminal
 map('n', '<C-t>', '<cmd>ToggleTerm<CR>')
 map('t', '<Esc>', '<C-\\><C-n>')
@@ -22,6 +24,9 @@ map('n', '<C-h>', '<C-w>h')
 map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
 map('n', '<C-l>', '<C-w>l')
+
+map('n', '<C-s>', ':split<CR>')
+map('n', '<C-S-s>', ':vsplit<CR>')
 
 --  JUST USE :qa INSTEAD (ty areeb 🫶)
 --
@@ -50,5 +55,8 @@ map('n', "<leader>/", "gcc", { desc = "toggle comment", remap = true })
 map('v', "<leader>/", "gc", { desc = "toggle comment", remap = true })
 
 -- telescope
-map('n', '<leader>tf', '<cmd>Telescope find_files<CR>')
-map('n', '<leader>tw', '<cmd>Telescope live_grep<CR>')
+map('n', '<leader>tf', '<cmd>Telescope find_files hidden=true<CR>')
+map('n', '<leader>tw', '<cmd>Telescope live_grep hidden=true<CR>')
+
+-- folds
+map('n', '<C-f>', 'za')
