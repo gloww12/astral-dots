@@ -60,3 +60,6 @@ map('n', '<leader>tw', '<cmd>Telescope live_grep hidden=true<CR>')
 
 -- folds
 map('n', '<C-f>', 'za')
+
+-- latex
+map('n', '<C-S-l>', '<cmd>TeXpresso %<CR>')

@@ -4,6 +4,7 @@ separator_color = frame
 font            = Fairiesevka Nerd Font
 corner_radius   = 8
 corners         = "all"
+follow          = "mouse"
 
 [urgency_low]
 background      = "#1e1e2e"

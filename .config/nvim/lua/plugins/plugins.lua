@@ -204,4 +204,8 @@ return {
 
   -- fold colours
   { 'emiasims/foldhue.nvim' },
+
+  { 'let-def/texpresso.vim', },
+
+  { 'brianhuster/live-preview.nvim' },
 }
