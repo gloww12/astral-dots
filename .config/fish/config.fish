@@ -38,6 +38,7 @@ alias s='source /home/glow/.config/fish/config.fish'
 alias uvpn='sudo openfortivpn remoteaccess.shef.ac.uk -u ach22jc'
 alias rosbox='distrobox enter rosbox'
 alias rails-server='thrust bin/rails s'
+alias updf='cd /home/glow/Documents/obsidian/uni/attachments && nohup zathura $(fzf)'
 
 export EDITOR=nvim
 export VISUAL=nvim

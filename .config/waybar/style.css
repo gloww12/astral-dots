@@ -71,7 +71,7 @@ window#waybar {
 }
 
 #clock {
-  background-color: @mauve;
+  background-color: @yellow;
   color:    @base;
   padding:  0px 10px 0px 10px;
 }

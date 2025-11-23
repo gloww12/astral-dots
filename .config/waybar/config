@@ -54,6 +54,7 @@
       "player-icons": {
         "default": "󰎈",
         "strawberry": "🍓",
+        "tidal-hifi": "🌊",
       },
 	    "format": "{player_icon} {dynamic}",
 	    "format-paused": "<i>{player_icon} {dynamic}</i>",
@@ -80,7 +81,7 @@
 
     "clock": {
 	    "interval": 1,
-	    "format": "{:%H:%M 💫 %d/%m/%Y}",
+	    "format": "{:%H:%M ~ %d/%m/%Y}",
     },
 
     "tray": {
