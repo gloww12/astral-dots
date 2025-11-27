@@ -19,7 +19,7 @@ alias :q="exit"
 alias wanger="ranger"
 alias python="/home/glow/pyvenv/bin/python"
 alias pip="/home/glow/pyvenv/bin/pip"
-alias fuck='paru -Rns'
+alias fuck='paru -Rnsc'
 alias rvd='rvm default'
 alias ber='bundle exec rubocop'
 alias be='bundle exec'
@@ -39,6 +39,8 @@ alias uvpn='sudo openfortivpn remoteaccess.shef.ac.uk -u ach22jc'
 alias rosbox='distrobox enter rosbox'
 alias rails-server='thrust bin/rails s'
 alias updf='cd /home/glow/Documents/obsidian/uni/attachments && nohup zathura $(fzf)'
+alias condascript='source /home/glow/.config/fish/condascript.fish'
+alias cpip='/home/glow/.conda/envs/sa_cell_tools/bin/pip'
 
 export EDITOR=nvim
 export VISUAL=nvim

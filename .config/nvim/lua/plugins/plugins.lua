@@ -1,7 +1,10 @@
 return {
 
-  -- treesitter 
-  { 'nvim-treesitter/nvim-treesitter' },
+  -- treesitter
+  { 
+    'nvim-treesitter/nvim-treesitter',
+    lazy = false,
+  },
 
   -- telescope for file/word find
   { 'nvim-telescope/telescope.nvim' },
@@ -22,6 +25,7 @@ return {
       },
   },
 
+  -- context window
   {
     'soulis-1256/eagle.nvim',
     opts = {
@@ -29,6 +33,13 @@ return {
       mouse_mode = true,
       detect_idle_timer = 3,
     }
+  },
+
+  -- lsp error tabs
+  {
+    'folke/trouble.nvim',
+    opts = {},
+    cmd = "Trouble",
   },
 
   -- theme
@@ -56,13 +67,13 @@ return {
   {
     'Saghen/blink.cmp',
     dependencies = { 'rafamadriz/friendly-snippets' },
-    version = '1.*',
+    version = '1.*', -- this is here to stop it from breaking idk why it works it just does
     opts = {
       keymap = {
         preset = 'enter',
         ['<Tab>'] = { 'select_next', 'fallback' },
         ['<S-Tab>'] = { 'select_prev', 'fallback' },
-        -- ['<Esc>'] = { 'cancel', 'fallback' }, -- unwise 
+        ['<S-Esc>'] = { 'cancel', 'fallback' },
       },
     },
   },
@@ -214,7 +225,11 @@ return {
   -- fold colours
   { 'emiasims/foldhue.nvim' },
 
-  { 'let-def/texpresso.vim', },
+  -- latex support
+  -- { 'let-def/texpresso.vim', },
+  { 'lervag/vimtex' },
 
   { 'brianhuster/live-preview.nvim' },
+
+  { 'nvim-tree/nvim-web-devicons', opts = {} },
 }

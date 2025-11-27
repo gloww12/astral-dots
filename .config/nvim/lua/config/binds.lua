@@ -28,6 +28,8 @@ map('n', '<C-l>', '<C-w>l')
 map('n', '<C-s>', ':split<CR>')
 map('n', '<C-S-s>', ':vsplit<CR>')
 
+map('i', '<C-BS>', '<C-w>')
+
 --  JUST USE :qa INSTEAD (ty areeb 🫶)
 --
 -- map('n', 'q!',
@@ -62,4 +64,10 @@ map('n', '<leader>tw', '<cmd>Telescope live_grep hidden=true<CR>')
 map('n', '<C-f>', 'za')
 
 -- latex
-map('n', '<C-S-l>', '<cmd>TeXpresso %<CR>')
+-- map('n', '<C-S-l>', '<cmd>TeXpresso %<CR>')
+
+-- trouble
+map('n', '<C-e>', '<cmd>Trouble diagnostics toggle<cr>', {desc = 'Diagnostics (Trouble)'})
+
+-- black
+map('n', '<C-b>', '<cmd>call Black()<cr>')
