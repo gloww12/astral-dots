@@ -5,9 +5,7 @@ require('config.binds')
 require('config.lspconfig')
 
 require'nvim-treesitter.configs'.setup {
--- require('nvim-treesitter.config').setup() {
-
-  ensure_installed = { "c", "lua", "vim",
+  ensure_installed = { "c", "lua", "vim", "typst",
                        "python", "html", "javascript",
                        "css", "fish", "java",
                        "markdown", "markdown_inline",

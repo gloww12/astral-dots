@@ -15,3 +15,10 @@ vim.lsp.config('pylsp', {
     }
   }
 })
+vim.lsp.config('ltex_plus', {
+  settings = {
+    ltex = {
+      language = 'en-GB',
+    },
+  },
+})

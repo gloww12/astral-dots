@@ -3,7 +3,14 @@
 
 * {
   font-family: Fairiesevka Nerd Font;
+  /* font-size: 22px; */
+}
+
+*.bar1 {
   font-size: 22px;
+}
+*.bar2 {
+  font-size: 18px;
 }
 
 window#waybar {

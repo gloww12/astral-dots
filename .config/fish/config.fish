@@ -1,4 +1,5 @@
 fish_add_path ~/.local/bin
+fish_add_path ~/pyvenv/bin
 
 alias sysup="paru"
 
@@ -24,8 +25,10 @@ alias rvd='rvm default'
 alias ber='bundle exec rubocop'
 alias be='bundle exec'
 alias br='bin/rails'
-alias please='sudo'
-alias mods='sudo'
+alias please='/usr/bin/sudo'
+alias mods='/usr/bin/sudo'
+alias fucking='/usr/bin/sudo'
+alias sudo='sl'
 alias chat-what='paru -Ss'
 alias search='paru -Ss'
 alias p='paru'
@@ -41,6 +44,7 @@ alias rails-server='thrust bin/rails s'
 alias updf='cd /home/glow/Documents/obsidian/uni/attachments && nohup zathura $(fzf)'
 alias condascript='source /home/glow/.config/fish/condascript.fish'
 alias cpip='/home/glow/.conda/envs/sa_cell_tools/bin/pip'
+alias bark='ruff format /home/glow/Documents/job/staph-code/cell_tool/'
 
 export EDITOR=nvim
 export VISUAL=nvim
