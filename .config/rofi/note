@@ -5,5 +5,6 @@ symlink config.rasi to ~/.config/rofi/
 symlink the colours file to ~/
 symlink rofimoji to ~/.config/
 symlink rofi-rbw to ~/.config/
+symlink the emoji csv to ~/.local/share/rofimoji/data/
 
 the colours file will be stored in this directory in the dotfiles repo for cleanliness

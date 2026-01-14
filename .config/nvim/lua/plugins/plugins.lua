@@ -237,4 +237,6 @@ return {
   { 'brianhuster/live-preview.nvim' },
 
   { 'nvim-tree/nvim-web-devicons', opts = {} },
+
+  { 'folke/twilight.nvim' }
 }

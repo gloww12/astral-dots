@@ -1,5 +1,5 @@
 fish_add_path ~/.local/bin
-fish_add_path ~/pyvenv/bin
+fish_add_path ~/.pyvenv/bin
 
 alias sysup="paru"
 
@@ -8,9 +8,22 @@ alias tetris="sl"
 alias pcaman='sl'
 alias :w='sl'
 alias claer='sl'
+alias sudo='sl'
+alias bash='sl'
+
+# funny but has consequences
+# alias git='sl'
+# alias hannah='/usr/bin/git'
 
 alias 'sl'='/home/glow/.config/fish/randsl.sh'
 
+# BULLSHIT aliases
+alias HELP='/usr/bin/bash'
+alias please='/usr/bin/sudo'
+alias mods='/usr/bin/sudo'
+alias fucking='/usr/bin/sudo'
+
+# real aliases
 alias orpheus='cd /home/glow/OrpheusDL && python orpheus.py'
 alias v="vim"
 alias sv="EDITOR=vim sudoedit"
@@ -18,17 +31,13 @@ alias nv="nvim"
 alias snv="sudoedit"
 alias :q="exit"
 alias wanger="ranger"
-alias python="/home/glow/pyvenv/bin/python"
-alias pip="/home/glow/pyvenv/bin/pip"
+alias python="/home/glow/.pyvenv/bin/python"
+alias pip="/home/glow/.pyvenv/bin/pip"
 alias fuck='paru -Rnsc'
 alias rvd='rvm default'
 alias ber='bundle exec rubocop'
 alias be='bundle exec'
 alias br='bin/rails'
-alias please='/usr/bin/sudo'
-alias mods='/usr/bin/sudo'
-alias fucking='/usr/bin/sudo'
-alias sudo='sl'
 alias chat-what='paru -Ss'
 alias search='paru -Ss'
 alias p='paru'

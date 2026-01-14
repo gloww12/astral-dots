@@ -48,6 +48,8 @@ map('i', '<C-BS>', '<C-w>')
 --   end
 -- )
 
+map('n', '<leader>w', '<cmd>Twilight<CR>', {desc = 'twilight toggle'})
+
 -- nvimtree
 map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
 map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
@@ -69,5 +71,7 @@ map('n', '<C-f>', 'za')
 -- trouble
 map('n', '<C-e>', '<cmd>Trouble diagnostics toggle<cr>', {desc = 'Diagnostics (Trouble)'})
 
--- black
-map('n', '<C-b>', '<cmd>call Black()<cr>')
+map("n", "<leader>ld", vim.lsp.buf.definition, {desc='goto def (LSP)'})
+map("n", "<leader>lr", vim.lsp.buf.references, {desc='goto references (LSP)'})
+map("n", "<leader>la", vim.lsp.buf.code_action, {desc='code action (LSP)'})
+map('n', '<leader>ln', vim.lsp.buf.rename, {desc='rename (LSP)'})

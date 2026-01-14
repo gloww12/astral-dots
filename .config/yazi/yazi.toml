@@ -1,0 +1,18 @@
+[opener]
+html = [
+  { run = "firefox $@", desc = "Firefox" },
+  { run = "nvim $@", desc = "Neovim" }
+]
+tif = [
+  { run = "fiji $@", desc = "Fiji" }
+]
+czi = [
+  { run = 'fiji $@', desc = 'Fiji' }
+]
+
+[open]
+prepend_rules = [
+  { url = "*.tif", use = "tif" },
+  { url = "*.html", use = ["html", "edit"] },
+  { url = '*.czi', use = 'czi' }
+]

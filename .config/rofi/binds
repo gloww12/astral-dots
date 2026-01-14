@@ -3,7 +3,7 @@ B | rofi-bluetooth
 C | clipboard
 D | rofi 
 E | rofimoji
-F | rofi files (bugged)
+F | hypr - fullscreen
 G 
 H | hypr - <
 I | hypridle
@@ -22,5 +22,5 @@ U | rofi bitwarden
 V | mullvad toggler
 W | waybar toggler
 Z
-Y
-Z | deco toggler
+Y | deco toggler
+Z | zoom
