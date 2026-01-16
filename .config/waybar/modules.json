@@ -124,6 +124,12 @@
     "exec": "~/.config/waybar/sunset.sh",
     "interval": 5,
     "return-type": "string"
+  },
+
+  "custom/bat": {
+    "exec": "~/.config/waybar/bat.sh",
+    "interval": 5,
+    "return-type": "string"
   }
 
 }

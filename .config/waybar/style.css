@@ -163,3 +163,10 @@ label:focus {
   padding:          0px 10px 0px 10px;
   color:            @base;
 }
+
+#custom-bat {
+  background-color: @yellow;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}
