@@ -14,6 +14,7 @@ require'nvim-treesitter.configs'.setup {
 require('lualine').setup() -- lualine (statusline)
 require('mason').setup() -- mason (lsp installer/manager)
 require('eagle').setup() -- eagle (lsp context)
+require('colorizer').setup()
 require("ibl").setup({ -- indent blanklines needs setup here
   exclude = {
     filetypes = {

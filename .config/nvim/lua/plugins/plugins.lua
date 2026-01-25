@@ -158,10 +158,11 @@ return {
   },
 
   -- colour preview on hex codes
-  {
-      "catgoose/nvim-colorizer.lua",
-      event = "BufReadPre",
-  },
+  -- {
+  --     "catgoose/nvim-colorizer.lua",
+  --     event = "BufReadPre",
+  -- },
+  { 'norcalli/nvim-colorizer.lua' },
 
   {
     "folke/which-key.nvim",
@@ -225,7 +226,7 @@ return {
   },
 
   -- cleaner folds
-  { 'kevinhwang91/nvim-ufo' },
+  { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' },
 
   -- fold colours
   { 'emiasims/foldhue.nvim' },

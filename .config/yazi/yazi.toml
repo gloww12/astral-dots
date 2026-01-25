@@ -3,16 +3,21 @@ html = [
   { run = "firefox $@", desc = "Firefox" },
   { run = "nvim $@", desc = "Neovim" }
 ]
-tif = [
+fiji = [
   { run = "fiji $@", desc = "Fiji" }
 ]
-czi = [
-  { run = 'fiji $@', desc = 'Fiji' }
+feh = [
+  { run = 'feh $@', desc = 'Feh'}
+]
+zath = [
+  { run = 'zathura $@', desc = 'Zathura'}
 ]
 
 [open]
 prepend_rules = [
-  { url = "*.tif", use = "tif" },
+  { url = "*.tif", use = "fiji" },
   { url = "*.html", use = ["html", "edit"] },
-  { url = '*.czi', use = 'czi' }
+  { url = '*.czi', use = 'fiji' },
+  { url = '*.png', use = 'feh' },
+  { url = '*.pdf', use = 'zath' },
 ]

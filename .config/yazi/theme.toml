@@ -1,8 +1,8 @@
+[app]
+overall = { bg = "#1e1e2e" }
+
 [mgr]
 cwd = { fg = "#94e2d5" }
-
-hovered         = { fg = "#1e1e2e", bg = "#f9e2af" }
-preview_hovered = { fg = "#1e1e2e", bg = "#cdd6f4" }
 
 find_keyword  = { fg = "#f9e2af", italic = true }
 find_position = { fg = "#f5c2e7", bg = "reset", italic = true }
@@ -22,7 +22,7 @@ border_style  = { fg = "#7f849c" }
 syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 
 [tabs]
-active   = { fg = "#1e1e2e", bg = "#cdd6f4", bold = true }
+active   = { fg = "#1e1e2e", bg = "#f9e2af", bold = true }
 inactive = { fg = "#cdd6f4", bg = "#45475a" }
 
 [mode]
@@ -138,6 +138,11 @@ files = [
   { name = ".git-blame-ignore-revs", text = "", fg = "#fab387" },
   { name = ".nvmrc", text = "", fg = "#a6e3a1" },
   { name = "hyprpaper.conf", text = "", fg = "#74c7ec" },
+  { name = "hyprmonitors.conf", text = "", fg = "#74c7ec" },
+  { name = "hyprbinds.conf", text = "", fg = "#74c7ec" },
+  { name = "hyprcolours.conf", text = "", fg = "#74c7ec" },
+  { name = "hyprrules.conf", text = "", fg = "#74c7ec" },
+  { name = "hyprtheme.conf", text = "", fg = "#74c7ec" },
   { name = ".prettierignore", text = "", fg = "#89b4fa" },
   { name = "rakefile", text = "", fg = "#313244" },
   { name = "code_of_conduct", text = "", fg = "#f38ba8" },

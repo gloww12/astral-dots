@@ -1,0 +1,15 @@
+{
+    "preset": "genderfluid",
+    "mode": "rgb",
+    "auto_detect_light_dark": true,
+    "light_dark": "dark",
+    "lightness": 0.07,
+    "color_align": {
+        "mode": "horizontal"
+    },
+    "backend": "fastfetch",
+    "args": null,
+    "distro": "endeavouros_small",
+    "pride_month_disable": false,
+    "custom_ascii_path": "/home/glow/.dots/ascii/bnuny-3"
+}
