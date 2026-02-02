@@ -3,8 +3,8 @@
 m=$(hyprctl monitors all | grep 'DP-4')
 
 if [[ $m = '' ]] ; then
-  hyprctl hyprpaper wallpaper 'eDP-1, /home/glow/Pictures/bh-mocha.png'
+  hyprctl hyprpaper wallpaper 'eDP-1, /home/glow/Pictures/wallpapers/catppuccin-slop/bh-mocha.png'
 else
-  hyprctl hyprpaper wallpaper 'eDP-1, /home/glow/Pictures/spiderman/wud.jpg'
-  hyprctl hyprpaper wallpaper 'DP-4, /home/glow/Pictures/spiderman/sg.jpg'
+  hyprctl hyprpaper wallpaper 'eDP-1, /home/glow/Pictures/wallpapers/zelda/botw1.jpg'
+  hyprctl hyprpaper wallpaper 'DP-4, /home/glow/Pictures/wallpapers/zelda/sword.jpg'
 fi

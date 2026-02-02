@@ -1,0 +1,5 @@
+[mgr]
+prepend_keymap= [
+  { on = ["`"], desc = "Command palette (fzf)", run = "plugin command-palette" },
+  { on = "y", run = "plugin ucp copy", desc = "Copy" }
+]

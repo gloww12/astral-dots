@@ -3,6 +3,7 @@ fish_add_path ~/.pyvenv/bin
 
 alias sysup="paru"
 
+# sl
 alias paur="sl"
 alias tetris="sl"
 alias pcaman='sl'
@@ -10,6 +11,7 @@ alias :w='sl'
 alias claer='sl'
 alias sudo='sl'
 alias bash='sl'
+alias man='sl'
 
 # funny but has consequences
 # alias git='sl'
@@ -22,6 +24,7 @@ alias HELP='/usr/bin/bash'
 alias please='/usr/bin/sudo'
 alias mods='/usr/bin/sudo'
 alias fucking='/usr/bin/sudo'
+alias rtfm='/usr/bin/man'
 
 # real aliases
 alias orpheus='cd /home/glow/OrpheusDL && python orpheus.py'

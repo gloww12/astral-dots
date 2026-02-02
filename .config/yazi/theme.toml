@@ -1,8 +1,13 @@
 [app]
 overall = { bg = "#1e1e2e" }
 
+[indicator]
+parent = { fg = "#1e1e2e", bg = "#f9e2af" }
+current = { fg = "#1e1e2e", bg = "#f9e2af" }
+preview = { fg = "#1e1e2e", bg = "#f9e2af" }
+
 [mgr]
-cwd = { fg = "#94e2d5" }
+cwd = { fg = "#f9e2af" }
 
 find_keyword  = { fg = "#f9e2af", italic = true }
 find_position = { fg = "#f5c2e7", bg = "reset", italic = true }
@@ -17,13 +22,13 @@ count_cut      = { fg = "#1e1e2e", bg = "#f38ba8" }
 count_selected = { fg = "#1e1e2e", bg = "#f9e2af" }
 
 border_symbol = "│"
-border_style  = { fg = "#7f849c" }
+border_style  = { fg = "#cba6f7" }
 
 syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 
 [tabs]
 active   = { fg = "#1e1e2e", bg = "#f9e2af", bold = true }
-inactive = { fg = "#cdd6f4", bg = "#45475a" }
+inactive = { fg = "#f9e2af", bg = "#45475a" }
 
 [mode]
 normal_main = { fg = "#1e1e2e", bg = "#f9e2af", bold = true }
@@ -32,8 +37,8 @@ normal_alt  = { fg = "#f9e2af", bg = "#313244"}
 select_main = { fg = "#1e1e2e", bg = "#a6e3a1", bold = true }
 select_alt  = { fg = "#a6e3a1", bg = "#313244"}
 
-unset_main  = { fg = "#1e1e2e", bg = "#f2cdcd", bold = true }
-unset_alt   = { fg = "#f2cdcd", bg = "#313244"}
+unset_main  = { fg = "#1e1e2e", bg = "#f9e2af", bold = true }
+unset_alt   = { fg = "#f9e2af", bg = "#313244"}
 
 [status]
 sep_left  = { open = "", close = "" }

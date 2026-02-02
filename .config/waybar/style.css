@@ -55,7 +55,7 @@ window#waybar {
 
 #pulseaudio.muted {
     background-color:   @base;
-    color:              @text;
+    color:              @pink;
 }
 
 #mpris{

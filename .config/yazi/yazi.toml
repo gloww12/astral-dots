@@ -21,3 +21,8 @@ prepend_rules = [
   { url = '*.png', use = 'feh' },
   { url = '*.pdf', use = 'zath' },
 ]
+
+[plugin]
+prepend_previewers = [
+  { name = "*.md", run = "glow" },
+]

@@ -1,7 +1,34 @@
-[plugin]
-deps = []
+[[plugin.deps]]
+use = "Reledia/glow"
+rev = "bd3eaa5"
+hash = "92b5c58159a51c567f82b618cee2b78"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "eca1861"
+hash = "e519d894e94ded741e06aae4d4775981"
+
+[[plugin.deps]]
+use = "josephschmitt/auto-layout"
+rev = "c8a3d8d"
+hash = "94e76cea86ef32b9b73c56d3e3f5120d"
+
+[[plugin.deps]]
+use = "Mr-Ples/command-palette"
+rev = "e5e6105"
+hash = "fee4f11556df389bd37341584c0fbcaf"
+
+[[plugin.deps]]
+use = "grappas/wl-clipboard"
+rev = "e9a38e4"
+hash = "6b8e5d6b09626facec713923d3ddb54b"
+
+[[plugin.deps]]
+use = "simla33/ucp"
+rev = "96f54af"
+hash = "2011ef145f7d4aaa23cbc64c05cd6a7f"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
 rev = "68326b4"
-hash = "2ac87e1b3a61f5887472899e86535d29"
+hash = "9bbdc072b7888c21e4ea0b289bb25f85"
