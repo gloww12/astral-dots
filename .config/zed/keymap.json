@@ -8,17 +8,124 @@
 [
   {
     "bindings": {
-      "ctrl-o": "editor::OpenSelectedFilename"
-    }
+      "ctrl-o": "editor::OpenSelectedFilename",
+    },
   },
   {
     "context": "Workspace",
-    "bindings": {}
+    "bindings": {},
   },
   {
     "context": "Editor&&vim_mode==normal",
     "bindings": {
-      ";": "command_palette::Toggle"
+      ";": "command_palette::Toggle",
+    },
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "space /": "vim::ToggleComments",
+    },
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "space t f": "file_finder::Toggle",
+    },
+  },
+  {
+    "context": "(Workspace || Editor)",
+    "bindings": {
+      "ctrl-t": "terminal_panel::Toggle",
+    },
+  },
+  {
+    "context": "!insert && !Terminal",
+    "bindings": {
+      "space t f": "editor::OpenSelectedFilename",
+    },
+  },
+  {
+    "context": "Editor",
+      "bindings": {
+      "ctrl-j": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-k": "editor::ToggleFocus"
+    }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "space t w": "pane::DeploySearch"
+    }
+  },
+  {
+    "context": "(!Editor && !Terminal)",
+    "bindings": {
+      "space t w": "pane::DeploySearch"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-f": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-1": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-1": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-f": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-e": null
+    }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "ctrl-` ctrl-`": "vim::PageDown"
+    }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "ctrl-f": null
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-f": "project_panel::Open"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-l": "workspace::ActivatePaneRight"
     }
   }
 ]

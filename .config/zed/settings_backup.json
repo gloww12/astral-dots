@@ -7,32 +7,35 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "show_edit_predictions": false,
   "agent": {
     "default_profile": "ask",
     "default_model": {
       "provider": "ollama",
       "model": "gemma3n:latest",
-      "enable_thinking": false,
+      "enable_thinking": false
     },
     "favorite_models": [],
-    "model_parameters": [],
+    "model_parameters": []
+  },
+  "features": {
+    "edit_prediction_provider": "none"
   },
   "icon_theme": "Catppuccin Mocha",
   "base_keymap": "JetBrains",
   "vim_mode": true,
   "ui_font_size": 22,
   "buffer_font_size": 20,
-  "buffer_font_family": "Fairiesevka Nerd Font",
+  "buffer_font_family": "FairiesevkaTerm Nerd Font Mono",
+  "buffer_font_features": { "calt": false },
   "ui_font_family": "Fairiesevka Nerd Font",
   "tab_size": 2,
   "theme": {
     "mode": "system",
     "light": "Catppuccin Mocha",
-    "dark": "Catppuccin Mocha - No Italics",
+    "dark": "Catppuccin Mocha - No Italics"
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false,
-  },
+    "diagnostics": false
+  }
 }

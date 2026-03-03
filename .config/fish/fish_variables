@@ -18,4 +18,4 @@ SETUVAR _fisher_plugins:catppuccin/fish\x1elaughedelic/fish_logo\x1edecors/fish\
 SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_40_v2_2E_31_2E_30__files:\x7e/\x2econfig/fish/functions/sdk\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e\x7e/\x2econfig/fish/completions/sdk\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_greeting:\x1d
-SETUVAR fish_user_paths:/home/glow/\x2epyvenv/bin\x1e/home/glow/pyvenv/bin\x1e/home/glow/\x2elocal/share/gem/ruby/3\x2e3\x2e0/bin\x1e/home/glow/\x2elocal/bin
+SETUVAR fish_user_paths:/home/glow/\x2ecargo/bin\x1e/home/glow/\x2epyvenv/bin\x1e/home/glow/pyvenv/bin\x1e/home/glow/\x2elocal/share/gem/ruby/3\x2e3\x2e0/bin\x1e/home/glow/\x2elocal/bin

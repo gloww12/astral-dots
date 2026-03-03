@@ -49,7 +49,31 @@ return {
   { 'nvim-lualine/lualine.nvim' },
 
   -- image preview (not working i think)
-  { '3rd/image.nvim' },
+  {
+    '3rd/image.nvim',
+    build = false,
+    opts = {
+      processor = "magick_cli",
+    }
+  },
+  { 'HakonHarnes/img-clip.nvim' },
+
+  -- inline markdown
+  -- { 'MeanderingProgrammer/render-markdown.nvim' },
+  {
+    'OXY2DEV/markview.nvim',
+    opts = {
+      preview = {
+        enable = true,
+        enable_hybrid_mode = true,
+        modes = { 'n', 'v', 'i', 'c'},
+        hybrid_modes = { 'n', 'v', 'i', 'c'},
+        linewise_hybrid_mode = true,
+      }
+    }
+  },
+
+  { 'OXY2DEV/tree-sitter-comment' },
 
   -- cheatsheet for keybinds
   { 'doctorfree/cheatsheet.nvim' },
@@ -69,6 +93,8 @@ return {
     dependencies = { 'rafamadriz/friendly-snippets' },
     version = '1.*', -- this is here to stop it from breaking idk why it works it just does
     opts = {
+      -- enabled = function() return vim.g.blink_cmp ~= false end,
+      enabled = function() return not vim.tbl_contains({ "markdown" }, vim.bo.filetype) end,
       keymap = {
         preset = 'enter',
         ['<Tab>'] = { 'select_next', 'fallback' },
@@ -239,5 +265,8 @@ return {
 
   { 'nvim-tree/nvim-web-devicons', opts = {} },
 
-  { 'folke/twilight.nvim' }
+  { 'folke/twilight.nvim' },
+
+  -- arduino for iot
+  { 'sbatin/platformio.nvim' },
 }

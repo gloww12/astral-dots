@@ -71,7 +71,13 @@ map('n', '<C-f>', 'za')
 -- trouble
 map('n', '<C-e>', '<cmd>Trouble diagnostics toggle<cr>', {desc = 'Diagnostics (Trouble)'})
 
+-- lsp
 map("n", "<leader>ld", vim.lsp.buf.definition, {desc='goto def (LSP)'})
 map("n", "<leader>lr", vim.lsp.buf.references, {desc='goto references (LSP)'})
 map("n", "<leader>la", vim.lsp.buf.code_action, {desc='code action (LSP)'})
 map('n', '<leader>ln', vim.lsp.buf.rename, {desc='rename (LSP)'})
+
+-- blink
+map('n', '<leader>b', function ()
+  vim.g.blink_cmp = not vim.g.blink_cmp
+end, {desc='toggle blink'})

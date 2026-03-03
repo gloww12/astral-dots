@@ -6,8 +6,8 @@ html = [
 fiji = [
   { run = "fiji $@", desc = "Fiji" }
 ]
-feh = [
-  { run = 'feh $@', desc = 'Feh'}
+image = [
+  { run = 'gwenview $@', desc = 'gwen'}
 ]
 zath = [
   { run = 'zathura $@', desc = 'Zathura'}
@@ -18,7 +18,8 @@ prepend_rules = [
   { url = "*.tif", use = "fiji" },
   { url = "*.html", use = ["html", "edit"] },
   { url = '*.czi', use = 'fiji' },
-  { url = '*.png', use = 'feh' },
+  { url = '*.png', use = 'image' },
+  { url = '*.jpg', use = 'image' },
   { url = '*.pdf', use = 'zath' },
 ]
 

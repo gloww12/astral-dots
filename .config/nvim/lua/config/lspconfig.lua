@@ -19,6 +19,7 @@ vim.lsp.config('ltex_plus', {
   settings = {
     ltex = {
       language = 'en-GB',
+      enabled = { 'tex', 'latex', 'plaintex' }
     },
   },
 })
