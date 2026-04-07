@@ -1,7 +1,7 @@
 return {
 
   -- treesitter
-  { 
+  {
     'nvim-treesitter/nvim-treesitter',
     lazy = false,
   },
@@ -14,7 +14,7 @@ return {
   --
   { 'neovim/nvim-lspconfig' },
 
-  -- LSP server manager
+  -- LSP manager
   { 'mason-org/mason.nvim' },
   {
       'mason-org/mason-lspconfig.nvim',
@@ -82,7 +82,8 @@ return {
   { 'akinsho/toggleterm.nvim', config = true },
 
   -- rainbow brackets
-  { 'HiPhish/rainbow-delimiters.nvim' },
+  -- { 'HiPhish/rainbow-delimiters.nvim' },
+  { 'p00f/nvim-ts-rainbow' },
 
   -- git blame
   { 'lewis6991/gitsigns.nvim' },
@@ -269,4 +270,10 @@ return {
 
   -- arduino for iot
   { 'sbatin/platformio.nvim' },
+
+  -- line number colouring
+  {
+    'mawkler/modicator.nvim',
+    dependencies = 'catppuccin/nvim',
+  },
 }

@@ -1,16 +1,27 @@
 [opener]
+nvim = [
+  { run = '''nvim "$@"''', desc = "Neovim" }
+]
 html = [
-  { run = "firefox $@", desc = "Firefox" },
-  { run = "nvim $@", desc = "Neovim" }
+  { run = '''firefox "$@"''', desc = "Firefox" }
 ]
 fiji = [
-  { run = "fiji $@", desc = "Fiji" }
+  { run = '''fiji "$@"''', desc = "Fiji" }
 ]
 image = [
-  { run = 'gwenview $@', desc = 'gwen'}
+  { run = '''feh "$@"''', desc = 'feh' }
+]
+gwen = [
+  { run = '''gwenview "$@"''', desc = 'gwen' }
 ]
 zath = [
-  { run = 'zathura $@', desc = 'Zathura'}
+  { run = '''zathura "$@"''', desc = 'Zathura' }
+]
+zath_alt = [
+  { run = '''azath "$@"''', desc = 'Zathura (no theming)' }
+]
+mpv = [
+  { run = '''mpv "$@"''', desc = 'mpv'}
 ]
 
 [open]
@@ -18,9 +29,11 @@ prepend_rules = [
   { url = "*.tif", use = "fiji" },
   { url = "*.html", use = ["html", "edit"] },
   { url = '*.czi', use = 'fiji' },
-  { url = '*.png', use = 'image' },
-  { url = '*.jpg', use = 'image' },
-  { url = '*.pdf', use = 'zath' },
+  { url = '*.png', use = ['image', 'gwen'] },
+  { url = '*.jpg', use = ['image', 'gwen'] },
+  { url = '*.pdf', use = ['zath', 'zath_alt'] },
+  { url = '*.webm', use = 'mpv' },
+  { url = '*.md', use = 'nvim' }
 ]
 
 [plugin]
