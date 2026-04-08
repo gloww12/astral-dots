@@ -4,6 +4,8 @@ return {
   {
     'nvim-treesitter/nvim-treesitter',
     lazy = false,
+    dependencies = { 'nvim-lua/plenary.nvim' },
+    build = ':TSUpdate',
   },
 
   -- telescope for file/word find
@@ -59,7 +61,6 @@ return {
   { 'HakonHarnes/img-clip.nvim' },
 
   -- inline markdown
-  -- { 'MeanderingProgrammer/render-markdown.nvim' },
   {
     'OXY2DEV/markview.nvim',
     opts = {
@@ -82,8 +83,7 @@ return {
   { 'akinsho/toggleterm.nvim', config = true },
 
   -- rainbow brackets
-  -- { 'HiPhish/rainbow-delimiters.nvim' },
-  { 'p00f/nvim-ts-rainbow' },
+  { 'HiPhish/rainbow-delimiters.nvim' },
 
   -- git blame
   { 'lewis6991/gitsigns.nvim' },

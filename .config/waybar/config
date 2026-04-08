@@ -16,7 +16,7 @@
 
 {
     "name": "bar2",
-    "output": ["DP-3"],
+    "output": ["DP-1", "DP-2", "DP-3", "DP-4"],
     "layer": "top",
     "margin-top": 4,
     "margin-left": 10,
