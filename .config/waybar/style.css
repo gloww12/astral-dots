@@ -170,3 +170,10 @@ label:focus {
   padding:          0px 10px 0px 10px;
   color:            @base;
 }
+
+#custom-effects {
+  background-color: @teal;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @base;
+}

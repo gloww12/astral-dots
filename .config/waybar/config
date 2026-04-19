@@ -9,7 +9,7 @@
     "spacing": 10, // Gaps between modules (4px)
     "modules-left": ["hyprland/workspaces", "mpris"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "custom/bat", "pulseaudio", "backlight", "cpu", "memory", "battery", "tray"],
+    "modules-right": ["custom/effects", "custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "custom/bat", "pulseaudio", "backlight", "cpu", "memory", "battery", "tray"],
     "include": ["~/.config/waybar/modules.json"]
 
 },
@@ -25,6 +25,6 @@
     "spacing": 10, // Gaps between modules (4px)
     "modules-left": ["hyprland/workspaces", "mpris"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "pulseaudio", "cpu", "memory", "tray"],
+    "modules-right": ["custom/effects", "custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "pulseaudio", "cpu", "memory", "tray"],
     "include": ["~/.config/waybar/modules.json"]
 }]

@@ -23,6 +23,12 @@ zath_alt = [
 mpv = [
   { run = '''mpv "$@"''', desc = 'mpv'}
 ]
+play = [
+  { run = '''play "$@"''', desc = 'play'}
+]
+audacity = [
+  { run = '''audacity "$@"''', desc = 'audacity'}
+]
 
 [open]
 prepend_rules = [
@@ -33,6 +39,7 @@ prepend_rules = [
   { url = '*.jpg', use = ['image', 'gwen'] },
   { url = '*.pdf', use = ['zath', 'zath_alt'] },
   { url = '*.webm', use = 'mpv' },
+  { url = '*.mp3', use = ['play', 'audacity'] },
 ]
 
 [plugin]

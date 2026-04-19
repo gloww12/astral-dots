@@ -29,6 +29,7 @@
       "20": "󰰶 ",
       "21": "󰀴 ",
       "22": " ",
+      "23": " ",
     },
   },
 
@@ -136,6 +137,12 @@
 
   "custom/bat": {
     "exec": "~/.config/waybar/bat.sh",
+    "interval": 5,
+    "return-type": "string"
+  },
+
+  "custom/effects": {
+    "exec": "~/.config/waybar/effects.sh",
     "interval": 5,
     "return-type": "string"
   }
