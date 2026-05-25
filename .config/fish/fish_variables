@@ -1,7 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export BROWSER:zen\x2dbrowser
-SETUVAR --export EANDBTOKEN:eyJhbGciOiJIUzUxMiJ9\x2eeyJqdGkiOiI1ZGY2ZWVhMS03NGJjLTRhMTctOTVkYy1kNzhkOWQwODhkZjEiLCJzdWIiOiIzYjYzZGRhYS0xODQ0LTRlMmUtYjZkOS1mMjE5NGI3ODU4ZDgiLCJpc3MiOiJjb20uZWFuLWRiIiwiaWF0IjoxNzc1NjY3MTM4LCJleHAiOjE4MDcyMDMxMzgsImlzQXBpIjoidHJ1ZSJ9\x2eL1ow1f\x2dXUoXgGZJAZUI9g9N7DdQWHhRLUQFxEoiV2UhG3gxy9dynLTJNneUnWoPP9D8oZ__7cD6Wmh5cnTtsng
 SETUVAR __fish_initialized:4300
 SETUVAR _fish_abbr_cda:zoxide\x20add
 SETUVAR _fish_abbr_cdq:zoxide\x20query
@@ -21,4 +20,3 @@ SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_40_v2_2E_31_2E_30__files:\x7e/\
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_greeting:\x1d
 SETUVAR fish_user_paths:/home/glow/\x2ecargo/bin\x1e/home/glow/\x2epyvenv/bin\x1e/home/glow/pyvenv/bin\x1e/home/glow/\x2elocal/share/gem/ruby/3\x2e3\x2e0/bin\x1e/home/glow/\x2elocal/bin
-SETUVAR --export token:eyJhbGciOiJIUzUxMiJ9\x2eeyJqdGkiOiI1ZGY2ZWVhMS03NGJjLTRhMTctOTVkYy1kNzhkOWQwODhkZjEiLCJzdWIiOiIzYjYzZGRhYS0xODQ0LTRlMmUtYjZkOS1mMjE5NGI3ODU4ZDgiLCJpc3MiOiJjb20uZWFuLWRiIiwiaWF0IjoxNzc1NjY3MTM4LCJleHAiOjE4MDcyMDMxMzgsImlzQXBpIjoidHJ1ZSJ9\x2eL1ow1f\x2dXUoXgGZJAZUI9g9N7DdQWHhRLUQFxEoiV2UhG3gxy9dynLTJNneUnWoPP9D8oZ__7cD6Wmh5cnTtsng

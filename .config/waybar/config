@@ -16,7 +16,7 @@
 
 {
     "name": "bar2",
-    "output": ["DP-1", "DP-2", "DP-3", "DP-4"],
+    "output": ["DP-1", "DP-3", "DP-4"],
     "layer": "top",
     "margin-top": 4,
     "margin-left": 10,
@@ -24,6 +24,20 @@
     "margin-right": 10,
     "spacing": 10, // Gaps between modules (4px)
     "modules-left": ["hyprland/workspaces", "mpris"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/effects", "custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "pulseaudio", "cpu", "memory", "tray"],
+    "include": ["~/.config/waybar/modules.json"]
+}, 
+{
+    "name": "bar3",
+    "output": ["DP-2"],
+    "layer": "top",
+    "margin-top": 4,
+    "margin-left": 10,
+    "margin-bottom": 0,
+    "margin-right": 10,
+    "spacing": 10, // Gaps between modules (4px)
+    "modules-left": ["hyprland/workspaces", "custom/juanito", "mpris"],
     "modules-center": ["clock"],
     "modules-right": ["custom/effects", "custom/caps", "custom/idle", "custom/sunset", "custom/dnd", "pulseaudio", "cpu", "memory", "tray"],
     "include": ["~/.config/waybar/modules.json"]

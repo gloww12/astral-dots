@@ -18,3 +18,7 @@ foreground      = "#cdd6f4"
 background      = "#1e1e2e"
 foreground      = "#cdd6f4"
 frame_color     = "#f38ba8"
+
+[discord_notifs]
+  appname = "vesktop"
+  script  = "/home/glow/.config/dunst/scripts/discord.sh"

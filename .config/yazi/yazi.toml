@@ -39,10 +39,6 @@ prepend_rules = [
   { url = '*.jpg', use = ['image', 'gwen'] },
   { url = '*.pdf', use = ['zath', 'zath_alt'] },
   { url = '*.webm', use = 'mpv' },
+  { url = '*.mp4', use = 'mpv' },
   { url = '*.mp3', use = ['play', 'audacity'] },
-]
-
-[plugin]
-prepend_previewers = [
-  { name = "*.md", run = "glow" },
 ]

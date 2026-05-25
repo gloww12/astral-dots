@@ -25,8 +25,8 @@ hash = "6b8e5d6b09626facec713923d3ddb54b"
 
 [[plugin.deps]]
 use = "simla33/ucp"
-rev = "96f54af"
-hash = "2011ef145f7d4aaa23cbc64c05cd6a7f"
+rev = "a4b5ce1"
+hash = "e64d13d729d3a22f8c62893411328c79"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"

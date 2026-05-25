@@ -12,6 +12,9 @@
 *.bar2 {
   font-size: 18px;
 }
+*.bar3 {
+  font-size: 18px;
+}
 
 window#waybar {
   transition-property:  background-color;
@@ -176,4 +179,11 @@ label:focus {
   border-radius:    8px;
   padding:          0px 10px 0px 10px;
   color:            @base;
+}
+
+#custom-juanito {
+  background-color: @base;
+  border-radius:    8px;
+  padding:          0px 10px 0px 10px;
+  color:            @text;
 }

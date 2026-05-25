@@ -145,6 +145,12 @@
     "exec": "~/.config/waybar/effects.sh",
     "interval": 5,
     "return-type": "string"
-  }
+  },
+
+  "custom/juanito": {
+    "exec": "~/.config/waybar/juanito.sh",
+    "interval": 99999999999,
+    "return-type": "string"
+  },
 
 }

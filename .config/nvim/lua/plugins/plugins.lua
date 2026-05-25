@@ -61,18 +61,18 @@ return {
   { 'HakonHarnes/img-clip.nvim' },
 
   -- inline markdown
-  {
-    'OXY2DEV/markview.nvim',
-    opts = {
-      preview = {
-        enable = true,
-        enable_hybrid_mode = true,
-        modes = { 'n', 'v', 'i', 'c'},
-        hybrid_modes = { 'n', 'v', 'i', 'c'},
-        linewise_hybrid_mode = true,
-      }
-    }
-  },
+  -- {
+  --   'OXY2DEV/markview.nvim',
+  --   opts = {
+  --     preview = {
+  --       enable = true,
+  --       enable_hybrid_mode = true,
+  --       modes = { 'n', 'v', 'i', 'c'},
+  --       hybrid_modes = { 'n', 'v', 'i', 'c'},
+  --       linewise_hybrid_mode = true,
+  --     }
+  --   }
+  -- },
 
   { 'OXY2DEV/tree-sitter-comment' },
 
@@ -276,4 +276,19 @@ return {
     'mawkler/modicator.nvim',
     dependencies = 'catppuccin/nvim',
   },
+
+  -- camelcase motion
+  { 'chaoren/vim-wordmotion' },
+
+  -- TODO highlighting
+  { 
+    "folke/todo-comments.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "ibhagwan/fzf-lua",
+      "folke/trouble.nvim",
+      "nvim-telescope/telescope.nvim"
+  },
+    opts = {}
+  }
 }
