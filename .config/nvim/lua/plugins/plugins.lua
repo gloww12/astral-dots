@@ -168,21 +168,21 @@ return {
   },
 
   -- highlights word under cursor
-  {
-    'ya2s/nvim-cursorline',
-    opts = {
-      cursorline = {
-        enable = true,
-        timeout = 1000,
-        number = false,
-      },
-      cursorword = {
-        enable = true,
-        min_length = 3,
-        hl = { underline = true },
-      },
-    },
-  },
+  -- {
+  --   'ya2s/nvim-cursorline',
+  --   opts = {
+  --     cursorline = {
+  --       enable = true,
+  --       timeout = 1000,
+  --       number = false,
+  --     },
+  --     cursorword = {
+  --       enable = true,
+  --       min_length = 3,
+  --       hl = { underline = true },
+  --     },
+  --   },
+  -- },
 
   -- colour preview on hex codes
   -- {
@@ -191,6 +191,7 @@ return {
   -- },
   { 'norcalli/nvim-colorizer.lua' },
 
+  -- keybind screen on keypress
   {
     "folke/which-key.nvim",
     event = "VeryLazy",
@@ -205,7 +206,6 @@ return {
     },
   },
 
-  -- keybind screen on keypress
   {
     'nvim-tree/nvim-tree.lua',
     version = '*',
@@ -240,8 +240,8 @@ return {
   -- autopair tags
   { 'windwp/nvim-ts-autotag' },
 
-  -- blackjack
-  { 'alanfortlink/blackjack.nvim'},
+  -- -- blackjack
+  -- { 'alanfortlink/blackjack.nvim'},
 
   -- indent plugin
   {
@@ -260,16 +260,16 @@ return {
 
   -- latex support
   -- { 'let-def/texpresso.vim', },
-  { 'lervag/vimtex' },
-
-  { 'brianhuster/live-preview.nvim' },
+  -- { 'lervag/vimtex' },
+  --
+  -- { 'brianhuster/live-preview.nvim' },
 
   { 'nvim-tree/nvim-web-devicons', opts = {} },
 
-  { 'folke/twilight.nvim' },
-
-  -- arduino for iot
-  { 'sbatin/platformio.nvim' },
+  -- { 'folke/twilight.nvim' },
+  --
+  -- -- arduino for iot
+  -- { 'sbatin/platformio.nvim' },
 
   -- line number colouring
   {
@@ -280,15 +280,15 @@ return {
   -- camelcase motion
   { 'chaoren/vim-wordmotion' },
 
-  -- TODO highlighting
-  { 
-    "folke/todo-comments.nvim",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "ibhagwan/fzf-lua",
-      "folke/trouble.nvim",
-      "nvim-telescope/telescope.nvim"
-  },
-    opts = {}
-  }
+  -- -- TODO highlighting
+  -- { 
+  --   "folke/todo-comments.nvim",
+  --   dependencies = {
+  --     "nvim-lua/plenary.nvim",
+  --     "ibhagwan/fzf-lua",
+  --     "folke/trouble.nvim",
+  --     "nvim-telescope/telescope.nvim"
+  -- },
+  --   opts = {}
+  -- }
 }

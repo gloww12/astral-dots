@@ -9,13 +9,16 @@ tab_bar_style       powerline
 # tab_bar_background  none
 
 map ctrl+shift+d    new_tab_with_cwd
+map ctrl+shift+s    send_text all \x1b[83;5u
+map ctrl+shift+L    send_text all \x1b[76;5u
 
 enabled_layouts     grid
+disable_ligatures   cursor
 
 
 # BEGIN_KITTY_FONTS
-font_family      family='Zed Mono' style=Semibold
-bold_font        family='Zed Mono' style=Extrabold
-italic_font      family='Zed Mono' style='Semibold Italic'
-bold_italic_font family='Zed Mono' style='Extrabold Italic'
+font_family      family='FairiesevkaTerm Nerd Font Mono' style=SemiBold
+bold_font        family='FairiesevkaTerm Nerd Font Mono' style=ExtraBold
+italic_font      family='FairiesevkaTerm Nerd Font Mono' style='SemiBold Italic'
+bold_italic_font family='FairiesevkaTerm Nerd Font Mono' style='ExtraBold Italic'
 # END_KITTY_FONTS

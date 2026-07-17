@@ -8,7 +8,7 @@ brightnessctl s 0
 feh /home/glow/wall/coconut.jpg
 sl
 steam
-chromium --incognito --new-window 'https://www.tomscott.com/usvsth3m/edballs/'
+chromium --incognito --new-window https://www.tomscott.com/usvsth3m/edballs/
 /home/glow/.config/hypr/scripts/soundroulette.sh
 blender
 vscodium

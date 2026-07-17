@@ -1,4 +1,5 @@
 fish_add_path ~/.local/bin
+fish_add_path ~/.local/share/gem/ruby/3.4.0/bin
 fish_add_path ~/.pyvenv/bin
 fish_add_path ~/.cargo/bin
 
@@ -6,10 +7,10 @@ source ~/.config/fish/alias.fish
 
 export EDITOR=nvim
 export VISUAL=nvim
-# export GEM_HOME='/home/glow/.gems/'
-# export GEM_PATH='/home/glow/.gems/'
-# export BUNDLE_PATH='/home/glow/.gems/'
-# export BUNDLE_HOME='/home/glow/.gems/'
+export GEM_HOME='/home/glow/.local/share/gem/ruby/3.4.0'
+export GEM_PATH='/home/glow/.local/share/gem/ruby/3.4.0'
+export BUNDLE_PATH='/home/glow/.local/share/gem/ruby/3.4.0'
+export BUNDLE_HOME='/home/glow/.local/share/gem/ruby/3.4.0'
 
 zoxide init fish | source
 starship init fish | source
