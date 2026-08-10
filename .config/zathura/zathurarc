@@ -1,3 +1,4 @@
 set selection-clipboard clipboard
-include catppuccin-mocha
+# include catppuccin-mocha
+include noctaliarc
 # set smooth-scroll "true"

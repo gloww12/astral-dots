@@ -8,6 +8,7 @@ alias sudo='sl'
 alias bash='sl'
 alias man='sl'
 alias paru='sl'
+alias pip='uv pip'
 
 alias 'sl'='/home/glow/.config/fish/randsl.sh'
 
@@ -18,6 +19,7 @@ alias mods='/usr/bin/env sudo'
 alias fucking='/usr/bin/env sudo'
 alias rtfm='/usr/bin/env man'
 alias g='/usr/bin/env git'
+alias pip!='/home/glow/.pyvenv/bin/pip'
 
 # real aliases
 alias orpheus='cd /home/glow/OrpheusDL && python orpheus.py'
@@ -30,6 +32,7 @@ alias wanger="ranger"
 # disabled because i use multiple venvs now
 # alias python="/home/glow/.pyvenv/bin/python"
 # alias pip="/home/glow/.pyvenv/bin/pip"
+alias pv='source .venv/bin/activate.fish'
 alias py3.13='source /home/glow/.pyvenv3.13/bin/activate.fish'
 alias py3.13t='source /home/glow/.pyvenv3.13t/bin/activate.fish'
 alias py3.12='source /home/glow/.pyvenv3.12/bin/activate.fish'
