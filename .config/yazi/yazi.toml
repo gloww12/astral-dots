@@ -2,7 +2,7 @@
 nvim = [
   { run = '''nvim "$@"''', desc = "Neovim" }
 ]
-html = [
+firefox = [
   { run = '''firefox "$@"''', desc = "Firefox" }
 ]
 fiji = [
@@ -33,11 +33,11 @@ audacity = [
 [open]
 prepend_rules = [
   { url = "*.tif", use = "fiji" },
-  { url = "*.html", use = ["html", "edit"] },
+  { url = "*.html", use = ["firefox", "edit"] },
   { url = '*.czi', use = 'fiji' },
   { url = '*.png', use = ['image', 'gwen'] },
   { url = '*.jpg', use = ['image', 'gwen'] },
-  { url = '*.pdf', use = ['zath', 'zath_alt'] },
+  { url = '*.pdf', use = ['zath', 'zath_alt', 'firefox'] },
   { url = '*.webm', use = 'mpv' },
   { url = '*.mp4', use = 'mpv' },
   { url = '*.mp3', use = ['play', 'audacity'] },
