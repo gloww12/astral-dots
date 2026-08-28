@@ -20,7 +20,11 @@ hl.config({
     decoration = {
         rounding = 8,
         blur = { enabled = false },
-    },
+        -- screen_shader = "/home/glow/salted.crt/crt-screen.frag",
+        -- wobble = { enabled = true },
+        -- motion_blur = { enabled = true },
+        -- glow = { enabled = true },
+     },
 
     animations = { enabled = true },
 

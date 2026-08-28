@@ -2,39 +2,37 @@
 
 hl.workspace_rule({
     workspace = 11,
+    on_created_empty = "zen-browser",
+    default_name = '󰈹'
+})
+
+hl.workspace_rule({
+    workspace = 12,
     on_created_empty = "kitty",
     default_name = ''
 })
 
 hl.workspace_rule({
-    workspace = 12,
+    workspace = 13,
     on_created_empty = "flatpak run com.mastermindzh.tidal-hifi",
     default_name = ''
 })
 
--- music
-
 hl.workspace_rule({
-    workspace = 13,
+    workspace = 14,
     on_created_empty = "vesktop",
     default_name = ''
 })
 
 hl.workspace_rule({
-    workspace = 14,
+    workspace = 15,
     on_created_empty = "gtk-launch WebApp-youtube2404.desktop",
     default_name = ''
 })
 
 hl.workspace_rule({
-    workspace = 15,
-    on_created_empty = "gtk-launch WebApp-piracywebsite5155.desktop",
-})
-
-hl.workspace_rule({
     workspace = 16,
-    on_created_empty = "zen-browser",
-    default_name = '󰈹'
+    on_created_empty = "gtk-launch WebApp-piracywebsite5155.desktop",
 })
 
 hl.workspace_rule({

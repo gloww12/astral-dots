@@ -3,18 +3,14 @@ require('config.lazy')
 require('config.opts')
 require('config.binds')
 require('config.lspconfig')
+require('config.theme')
 
 require('nvim-treesitter').setup()
-require('lualine').setup() -- lualine (statusline)
 require('mason').setup() -- mason (lsp installer/manager)
 require('eagle').setup() -- eagle (lsp context)
 require('colorizer').setup() -- coloriser, go figure
 require('modicator').setup() -- coloured line number
 require('image').enable()
--- require('render-markdown').setup({
---     completions = { lsp = { enabled = true } },
---     render_modes = true,
--- })
 require("ibl").setup({ -- indent blanklines needs setup here
   exclude = {
     filetypes = {

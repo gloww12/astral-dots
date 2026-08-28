@@ -10,21 +10,21 @@ b("SHIFT + XF86AudioMedia",   exec("kitty -d ~/Documents/job/staph-code nvim"))
 b("CONTROL + XF86AudioMedia", exec("kitty -d ~/Documents/obsidian/uni nvim"))
 
 b("SUPER + SHIFT + A", exec("termspace.sh 21"))
-b("SUPER + SHIFT + B", exec("termspace.sh 16"))
+b("SUPER + SHIFT + B", exec("termspace.sh 11"))
 b("SUPER + SHIFT + C", exec("noctalia msg panel-open control-center calendar"))
-b("SUPER + SHIFT + D", exec("termspace.sh 13"))
+b("SUPER + SHIFT + D", exec("termspace.sh 14"))
 b("SUPER + SHIFT + F", exec("noctalia msg panel-open nightwatch75/file-search:panel"))
 b("SUPER + SHIFT + G", exec("termspace.sh 22"))
 b("SUPER + SHIFT + M", exec("proton-mail"))
 b("SUPER + SHIFT + N", exec("termspace.sh 17"))
 b("SUPER + SHIFT + O", exec("termspace.sh 18"))
-b("SUPER + SHIFT + P", exec("termspace.sh 15"))
+b("SUPER + SHIFT + P", exec("termspace.sh 16"))
 b("SUPER + SHIFT + Q", exec("qbittorrent"))
 b("SUPER + SHIFT + R", exec("kitty -d ~/Pictures/reaction yazi"))
 b("SUPER + SHIFT + S", exec("termspace.sh 24"))
-b("SUPER + SHIFT + T", exec("termspace.sh 12"))
+b("SUPER + SHIFT + T", exec("termspace.sh 13"))
 b("SUPER + SHIFT + V", exec("termspace.sh 19"))
-b("SUPER + SHIFT + Y", exec("termspace.sh 14"))
+b("SUPER + SHIFT + Y", exec("termspace.sh 15"))
 b("SUPER + SHIFT + Z", exec("termspace.sh 20"))
 
 -- launcher
@@ -140,7 +140,7 @@ b("SUPER + 0", hl.dsp.focus({ workspace = 0 }))
 
 -- hidden workspaces
 
-b("SUPER + Tab", exec("termspace.sh 11"))
+b("SUPER + Tab", exec("termspace.sh 12"))
 
 -- bind = $mainMod, Escape,  exec, termspace.sh 14
 

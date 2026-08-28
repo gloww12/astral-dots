@@ -45,7 +45,8 @@ return {
   },
 
   -- theme
-  { 'catppuccin/nvim' },
+  -- { 'catppuccin/nvim' },
+  { 'RRethy/base16-nvim' },
 
   -- statusline
   { 'nvim-lualine/lualine.nvim' },
@@ -274,7 +275,7 @@ return {
   -- line number colouring
   {
     'mawkler/modicator.nvim',
-    dependencies = 'catppuccin/nvim',
+    -- dependencies = 'catppuccin/nvim',
   },
 
   -- camelcase motion
