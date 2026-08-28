@@ -8,7 +8,7 @@ require('config.theme')
 require('nvim-treesitter').setup()
 require('mason').setup() -- mason (lsp installer/manager)
 require('eagle').setup() -- eagle (lsp context)
-require('colorizer').setup() -- coloriser, go figure
+require('nvim-highlight-colors').setup()
 require('modicator').setup() -- coloured line number
 require('image').enable()
 require("ibl").setup({ -- indent blanklines needs setup here

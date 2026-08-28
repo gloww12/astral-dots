@@ -20,7 +20,7 @@
   "modicator.nvim": { "branch": "main", "commit": "7f867b4980946f115f4ccb922637d70d89a59cb4" },
   "nvim-autopairs": { "branch": "master", "commit": "430522f95fe4fb7c511ec64f8c1a90cc6a66c05c" },
   "nvim-cmp": { "branch": "main", "commit": "2ffe79f1f021def8dd1fcd81deb16f1bb0d989f3" },
-  "nvim-colorizer.lua": { "branch": "master", "commit": "a065833f35a3a7cc3ef137ac88b5381da2ba302e" },
+  "nvim-highlight-colors": { "branch": "main", "commit": "e4c7af0211866162d999ce0bdd6a029302e19139" },
   "nvim-lspconfig": { "branch": "master", "commit": "684cb45c2faa24ce463b4fe9aaf011bfe1e0fb26" },
   "nvim-snippets": { "branch": "main", "commit": "56b4052f71220144689caaa2e5b66222ba5661eb" },
   "nvim-tree.lua": { "branch": "master", "commit": "531b807b8f0d6f75016a0ee1e0cd5ce2086e9d95" },

@@ -190,7 +190,9 @@ return {
   --     "catgoose/nvim-colorizer.lua",
   --     event = "BufReadPre",
   -- },
-  { 'norcalli/nvim-colorizer.lua' },
+  -- { 'norcalli/nvim-colorizer.lua' },
+  { 'brenoprata10/nvim-highlight-colors' },
+
 
   -- keybind screen on keypress
   {

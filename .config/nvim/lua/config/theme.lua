@@ -17,15 +17,17 @@ require('base16-colorscheme').setup({
     base0F = '#FFC300',
     bg      = '#001D3D',
     fg      = '#FAFAFA',
+    acc     = '#FFd60A',
+    alt     = '#FFC300',
     light   = '#003566',
     dark    = '#000814',
-    yellow  = '#FFD60A',
-    alt     = '#FFC300',
-    purple  = '#AE81FF',
-    blue    = '#66D9EF',
-    comment = '#ACABFB',
-    green   = '#50FA7B',
     red     = '#F92672',
+    orange  = '#FF8766',
+    yellow  = '#FFD60A',
+    green   = '#50FA7B',
+    blue    = '#66D9EF',
+    purple  = '#AE81FF',
+    comment = '#ACABFB',
 })
 
 local theme = require('lualine.themes.gruvbox')
@@ -51,7 +53,7 @@ theme = {
   },
 
   replace = {
-    a = {bg = c.alt, fg = c.dark},
+    a = {bg = c.orange, fg = c.dark},
     b = {bg = c.bg, fg = c.fg},
     c = {bg = c.light, fg = c.fg},
   },
@@ -69,11 +71,34 @@ theme = {
   },
 }
 
+
+-- rainbow brackets
+vim.api.nvim_set_hl(0, "RainbowDelimiterRed", { fg=c.red})
+vim.api.nvim_set_hl(0, "RainbowDelimiterYellow", { fg=c.yellow})
+vim.api.nvim_set_hl(0, "RainbowDelimiterOrange", { fg=c.orange})
+vim.api.nvim_set_hl(0, "RainbowDelimiterGreen", { fg=c.green})
+vim.api.nvim_set_hl(0, "RainbowDelimiterBlue", { fg=c.blue})
+vim.api.nvim_set_hl(0, "RainbowDelimiterViolet", { fg=c.purple})
+vim.api.nvim_set_hl(0, "RainbowDelimiterCyan", { fg=c.base06})
+
+-- telescope
+vim.api.nvim_set_hl(0, "TelescopeNormal", { fg=c.base05})
+vim.api.nvim_set_hl(0, "TelescopeBorder", { fg=c.base05})
+vim.api.nvim_set_hl(0, "TelescopeSelectionCaret", { fg=c.yellow})
+vim.api.nvim_set_hl(0, "TelescopeMatching", { fg=c.alt})
+vim.api.nvim_set_hl(0, "TelescopePromptNormal", { fg=c.yellow})
+vim.api.nvim_set_hl(0, "TelescopePromptTitle", { fg=c.alt})
+vim.api.nvim_set_hl(0, "TelescopePromptPrefix", { fg=c.green})
+vim.api.nvim_set_hl(0, "TelescopePromptBorder", { fg=c.yellow})
+vim.api.nvim_set_hl(0, "TelescopePreviewTitle", { fg=c.fg})
+vim.api.nvim_set_hl(0, "TelescopePreviewBorder", { fg=c.comment})
+vim.api.nvim_set_hl(0, "TelescopeResultsTitle", { fg=c.fg})
+vim.api.nvim_set_hl(0, "TelescopeResultsBorder", { fg=c.comment})
+
 require('lualine').setup{
   options = {
     theme = theme,
-    component_separators = { left = '|', right = '|'},
-    -- section_separators = { left = '', right = ''},
+    component_separators = { left = '\\', right = '/'},
     section_separators = { left = '◣', right = '◢'},
   }
-} -- lualine (statusline)
+}
