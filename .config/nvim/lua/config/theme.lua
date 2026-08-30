@@ -1,6 +1,6 @@
 require('base16-colorscheme').setup({
-    base00 = '#001D3D', --bg
-    base01 = '#003566', --line highlight
+    base00 = '#00132E', --bg
+    base01 = '#002752', --line highlight
     base02 = '#003566', --line highlight (ui)
     base03 = '#ACABFB', --comment / indent guide
     base04 = '#FFD60A', --line num
@@ -11,22 +11,23 @@ require('base16-colorscheme').setup({
     base09 = '#FFC300', 
     base0A = '#FFD60A', 
     base0B = '#50FA7B', --string
-    base0C = '#66D9EF', 
-    base0D = '#66D9EF', 
-    base0E = '#AE81FF', 
+    base0C = '#2EDCFF', 
+    base0D = '#2EDCFF', 
+    base0E = '#8B4DFF', 
     base0F = '#FFC300',
-    bg      = '#001D3D',
+    bg      = '#00132E',
     fg      = '#FAFAFA',
     acc     = '#FFd60A',
     alt     = '#FFC300',
-    light   = '#003566',
-    dark    = '#000814',
+    light   = '#002752',
+    dark    = '#000000',
     red     = '#F92672',
     orange  = '#FF8766',
     yellow  = '#FFD60A',
     green   = '#50FA7B',
-    blue    = '#66D9EF',
-    purple  = '#AE81FF',
+    blue    = '#2EDCFF',
+    purple  = '#8B4DFF',
+    pink    = '#FF66FF',
     comment = '#ACABFB',
 })
 
