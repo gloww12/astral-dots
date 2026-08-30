@@ -20,9 +20,9 @@
       "background": "#00132E",
       "foreground": "#FAFAFA",
       "cursor": "#FFD60A",
-      "cursorText": "#000000",
-      "selectionBg": "#FAFAFA",
-      "selectionFg": "#000000",
+      "cursorText":  "#00132E",
+      "selectionBg": "#2EDCFF",
+      "selectionFg": "#00132E",
       "normal": {
         "black":    "#00132E",
         "red":      "#F92672",

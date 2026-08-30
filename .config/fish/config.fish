@@ -4,6 +4,7 @@ fish_add_path ~/.pyvenv/bin
 fish_add_path ~/.cargo/bin
 
 source ~/.config/fish/alias.fish
+fish_config theme choose Orbital
 
 export EDITOR=nvim
 export VISUAL=nvim

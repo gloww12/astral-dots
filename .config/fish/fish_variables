@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export BROWSER:zen\x2dbrowser
 SETUVAR __fish_initialized:4300
+SETUVAR __fish_webconfig_theme_notification:set\x2dtheme\x2dv1\x2d\x231
 SETUVAR _fish_abbr_cda:zoxide\x20add
 SETUVAR _fish_abbr_cdq:zoxide\x20query
 SETUVAR _fish_abbr_cdqi:zoxide\x20query\x20\x2di

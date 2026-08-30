@@ -1,0 +1,18 @@
+accent  = "#FFD60A"
+alt     = "#FFC300"
+
+text    = "#FAFAFA"
+comment = "#ACABFB"
+
+l1      = "#003566"
+l2      = "#002752"
+bg      = "#00132E"
+dark    = "#000000"
+
+red     = "#F92672"
+orange  = "#FF8766"
+yellow  = "#FFD60A"
+green   = "#50FA7B"
+blue    = "#2EDCFF"
+purple  = "#8B4DFF"
+pink    = "#FF66FF"
