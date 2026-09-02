@@ -20,6 +20,7 @@ require('base16-colorscheme').setup({
     acc     = '#FFd60A',
     alt     = '#FFC300',
     light   = '#002752',
+    light2  = '#003566',
     dark    = '#000000',
     red     = '#F92672',
     orange  = '#FF8766',
@@ -95,6 +96,15 @@ vim.api.nvim_set_hl(0, "TelescopePreviewTitle", { fg=c.fg})
 vim.api.nvim_set_hl(0, "TelescopePreviewBorder", { fg=c.comment})
 vim.api.nvim_set_hl(0, "TelescopeResultsTitle", { fg=c.fg})
 vim.api.nvim_set_hl(0, "TelescopeResultsBorder", { fg=c.comment})
+
+-- dashboard
+vim.api.nvim_set_hl(0, "DashboardHeader", { fg=c.alt})
+vim.api.nvim_set_hl(0, "DashboardFooter", { fg=c.comment})
+vim.api.nvim_set_hl(0, "DashboardMruTitle", { fg=c.fg})
+vim.api.nvim_set_hl(0, "DashboardMruIcon", { fg=c.yellow})
+vim.api.nvim_set_hl(0, "DashboardFiles", { fg=c.fg})
+vim.api.nvim_set_hl(0, "DashboardShortCutIcon", { fg=c.green})
+vim.api.nvim_set_hl(0, "DashboardPink", { fg=c.pink})
 
 require('lualine').setup{
   options = {

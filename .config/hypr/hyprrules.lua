@@ -37,7 +37,8 @@ hl.workspace_rule({
 
 hl.workspace_rule({
     workspace = 17,
-    on_created_empty = "kitty -d ~/Documents/ yazi",
+    on_created_empty = "kitty nvim",
+    default_name = ''
 })
 
 hl.workspace_rule({

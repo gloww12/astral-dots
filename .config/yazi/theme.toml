@@ -1,10 +1,10 @@
 [app]
-overall = { bg = "#001D3D" }
+overall = { bg = "#00132E" }
 
 [indicator]
-parent = { fg = "#001D3D", bg = "#FFD60A" }
-current = { fg = "#001D3D", bg = "#FFD60A" }
-preview = { fg = "#001D3D", bg = "#FFD60A" }
+parent = { fg = "#00132E", bg = "#FFD60A" }
+current = { fg = "#00132E", bg = "#FFD60A" }
+preview = { fg = "#00132E", bg = "#FFD60A" }
 
 [mgr]
 cwd = { fg = "#FFD60A" }
@@ -17,9 +17,9 @@ marker_cut      = { fg = "#F92672", bg = "#F92672" }
 marker_marked   = { fg = "#2EDCFF", bg = "#2EDCFF" }
 marker_selected = { fg = "#FFD60A", bg = "#FFD60A" }
 
-count_copied   = { fg = "#001D3D", bg = "#50FA7B" }
-count_cut      = { fg = "#001D3D", bg = "#F92672" }
-count_selected = { fg = "#001D3D", bg = "#FFD60A" }
+count_copied   = { fg = "#00132E", bg = "#50FA7B" }
+count_cut      = { fg = "#00132E", bg = "#F92672" }
+count_selected = { fg = "#00132E", bg = "#FFD60A" }
 
 border_symbol = "│"
 border_style  = { fg = "#8B4DFF" }
@@ -27,17 +27,17 @@ border_style  = { fg = "#8B4DFF" }
 # syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 
 [tabs]
-active   = { fg = "#001D3D", bg = "#FFD60A", bold = true }
+active   = { fg = "#00132E", bg = "#FFD60A", bold = true }
 inactive = { fg = "#FFD60A", bg = "#45475a" }
 
 [mode]
-normal_main = { fg = "#001D3D", bg = "#FFD60A", bold = true }
+normal_main = { fg = "#00132E", bg = "#FFD60A", bold = true }
 normal_alt  = { fg = "#FFD60A", bg = "#313244"}
 
-select_main = { fg = "#001D3D", bg = "#50FA7B", bold = true }
+select_main = { fg = "#00132E", bg = "#50FA7B", bold = true }
 select_alt  = { fg = "#50FA7B", bg = "#313244"}
 
-unset_main  = { fg = "#001D3D", bg = "#FFD60A", bold = true }
+unset_main  = { fg = "#00132E", bg = "#FFD60A", bold = true }
 unset_alt   = { fg = "#FFD60A", bg = "#313244"}
 
 [status]
@@ -238,7 +238,7 @@ files = [
   { name = "PrusaSlicerGcodeViewer.ini", text = "", fg = "#FFC300" },
   { name = "PrusaSlicer.ini", text = "", fg = "#FFC300" },
   { name = "procfile", text = "", fg = "#7f849c" },
-  { name = "mpv.conf", text = "", fg = "#001D3D" },
+  { name = "mpv.conf", text = "", fg = "#00132E" },
   { name = ".prettierrc.json5", text = "", fg = "#89b4fa" },
   { name = "i3status.conf", text = "", fg = "#f5e0dc" },
   { name = "prettier.config.mjs", text = "", fg = "#89b4fa" },
