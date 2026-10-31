@@ -1,6 +1,6 @@
 -- imports
 local hyprbinds = require("hyprbinds")
-local hyprrules = require("hyprrules")
+local hyprrules = require("hyprspaces")
 local hyprtheme = require("hyprtheme")
 local hyprmonitors = require("hyprmonitors")
 
@@ -19,7 +19,8 @@ hl.env("XDG_SESSION_TYPE", "wayland")
 -- For all categories, see https://wiki.hyprland.org/Configuring/Variables/
 hl.device({
     name = "royuan-keycool-keyboard",
-    kb_options = "altwin:swap_alt_win",
+    kb_options = "altwin:swap_lalt_lwin,caps:escape",
+    -- kb_options = "caps:escape",
 })
 
 hl.config({
@@ -27,9 +28,11 @@ hl.config({
     input = {
         kb_layout = "us",
         kb_options = "caps:escape",
+        -- kb_options = "altwin:swap_lalt_lwin,caps:escape",
         follow_mouse = 1,
         touchpad = { natural_scroll = true },
         sensitivity = 0,
+        resolve_binds_by_sym = true,  
     },
 
     dwindle = { preserve_split = true },
@@ -52,7 +55,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("noctalia")
     hl.exec_cmd("hypridle")
     hl.exec_cmd("nm-applet --indicator")
-    hl.exec_cmd("hyprctl setcursor Banana Goldenrod 48")
+    hl.exec_cmd("hyprctl setcursor 'Banana Goldenrod' 48")
     hl.exec_cmd("wl-paste --watch cliphist store")
     hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
     hl.exec_cmd("mullvad connect")

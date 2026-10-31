@@ -105,7 +105,19 @@ vim.api.nvim_set_hl(0, "DashboardMruIcon", { fg=c.yellow})
 vim.api.nvim_set_hl(0, "DashboardFiles", { fg=c.fg})
 vim.api.nvim_set_hl(0, "DashboardShortCutIcon", { fg=c.green})
 vim.api.nvim_set_hl(0, "DashboardPink", { fg=c.pink})
+vim.api.nvim_set_hl(0, "DashboardRed", { fg=c.red})
 
+-- terminal
+require("toggleterm").setup{
+  shade_terminals = false,
+  highlights = {
+    Normal = {
+      guibg = c.bg,
+    },
+  },
+}
+
+-- lualine
 require('lualine').setup{
   options = {
     theme = theme,

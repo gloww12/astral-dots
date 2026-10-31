@@ -133,3 +133,6 @@ capsule = true
 capsule_fill = "on_primary"
 inactive_pill_size = 1.0
 pill_scale = 0.80
+
+[wallpaper]
+enabled   = false #hyprmonitor is more granular but worse ui, using for multi monitor

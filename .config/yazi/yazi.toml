@@ -1,39 +1,39 @@
 [opener]
 nvim = [
-  { run = '''nvim "$@"''', desc = "Neovim" }
+  { run = 'nvim %s', desc = 'Neovim' }
 ]
 firefox = [
-  { run = '''firefox "$@"''', desc = "Firefox" }
+  { run = 'firefox %s', desc = 'Firefox' }
 ]
 fiji = [
-  { run = '''fiji "$@"''', desc = "Fiji" }
+  { run = 'fiji %s', desc = 'Fiji' }
 ]
 image = [
-  { run = '''feh "$@"''', desc = 'feh' }
+  { run = 'feh %s', desc = 'feh' }
 ]
 gwen = [
-  { run = '''gwenview "$@"''', desc = 'gwen' }
+  { run = 'gwenview %s', desc = 'gwen' }
 ]
 zath = [
-  { run = '''zathura "$@"''', desc = 'Zathura' }
+  { run = 'zathura %s', desc = 'Zathura' }
 ]
 zath_alt = [
-  { run = '''azath "$@"''', desc = 'Zathura (no theming)' }
+  { run = 'azath %s', desc = 'Zathura (no theming)' }
 ]
 mpv = [
-  { run = '''mpv "$@"''', desc = 'mpv'}
+  { run = 'mpv %s', desc = 'mpv'}
 ]
 play = [
-  { run = '''play "$@"''', desc = 'play'}
+  { run = 'play %s', desc = 'play'}
 ]
 audacity = [
-  { run = '''audacity "$@"''', desc = 'audacity'}
+  { run = 'audacity %s', desc = 'audacity'}
 ]
 
 [open]
 prepend_rules = [
-  { url = "*.tif", use = "fiji" },
-  { url = "*.html", use = ["firefox", "edit"] },
+  { url = '*.tif', use = 'fiji' },
+  { url = '*.html', use = ['firefox', 'edit'] },
   { url = '*.czi', use = 'fiji' },
   { url = '*.png', use = ['image', 'gwen'] },
   { url = '*.jpg', use = ['image', 'gwen'] },

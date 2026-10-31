@@ -14,7 +14,7 @@ hl.workspace_rule({
 
 hl.workspace_rule({
     workspace = 13,
-    on_created_empty = "flatpak run com.mastermindzh.tidal-hifi",
+    on_created_empty = "sone",
     default_name = ''
 })
 
@@ -59,14 +59,14 @@ hl.workspace_rule({
 
 hl.workspace_rule({
     workspace = 21,
-    on_created_empty = 'gtk-launch WebApp-AO0277',
-    default_name = '󱨝'
+    on_created_empty = 'android-studio',
+    default_name = ''
 })
 
 hl.workspace_rule({
     workspace = 22,
-    on_created_empty = "gimp",
-    default_name = ''
+    on_created_empty = "steam",
+    default_name = ''
 })
 
 hl.workspace_rule({

@@ -2,8 +2,10 @@ local b     = hl.bind
 local dsp   = hl.dsp
 local exec  = hl.dsp.exec_cmd
 
--- apps
 b("SUPER + Escape", exec("kitty"))
+
+-- apps
+-- b("SUPER + Escape", exec("kitty"))
 b("XF86AudioMedia", exec("termspace.sh 23"))
 b("F12", exec("termspace.sh 23"))
 b("SHIFT + XF86AudioMedia",   exec("kitty -d ~/Documents/job/staph-code nvim"))
@@ -76,15 +78,20 @@ b("XF86AudioMute", exec("noctalia msg volume-mute"))
 
 -- multimedia
 
-b("XF86AudioPlay", exec("playerctl play-pause"))
-b("Pause", exec("playerctl play-pause"))
-b("XF86AudioPause", exec("playerctl play-pause"))
-b("XF86AudioNext", exec("playerctl next"))
-b("XF86AudioPrev", exec("playerctl previous"))
-b("SHIFT + XF86AudioPlay", exec("playerctl play-pause"))
-b("SHIFT + XF86AudioPause", exec("playerctl play-pause"))
-b("SHIFT + XF86AudioNext", exec("playerctl next"))
-b("SHIFT + XF86AudioPrev", exec("playerctl previous"))
+-- b("Pause", exec("playerctl play-pause"))
+-- b("XF86AudioNext", exec("playerctl next"))
+-- b("XF86AudioPrev", exec("playerctl previous"))
+b("Pause", exec("noctalia msg media toggle"))
+b("XF86AudioNext", exec("noctalia msg media next"))
+b("XF86AudioPrev", exec("noctalia msg media prev"))
+
+b("SHIFT + Pause", exec("noctalia msg media toggle"))
+b("SHIFT + XF86AudioNext", exec("noctalia msg media next"))
+b("SHIFT + XF86AudioPrev", exec("noctalia msg media prev"))
+-- b("SHIFT + Pause", exec("playerctl play-pause"))
+-- b("SHIFT + XF86AudioNext", exec("playerctl next"))
+-- b("SHIFT + XF86AudioPrev", exec("playerctl previous"))
+b("CONTROL + Pause", exec("playerctl -a pause"))
 
 -- screenshot
 
@@ -136,7 +143,7 @@ b("SUPER + 6", hl.dsp.focus({ workspace = 6 }))
 b("SUPER + 7", hl.dsp.focus({ workspace = 7 }))
 b("SUPER + 8", hl.dsp.focus({ workspace = 8 }))
 b("SUPER + 9", hl.dsp.focus({ workspace = 9 }))
-b("SUPER + 0", hl.dsp.focus({ workspace = 0 }))
+b("SUPER + 0", hl.dsp.focus({ workspace = 10 }))
 
 -- hidden workspaces
 
@@ -154,16 +161,16 @@ b("SUPER + SHIFT + Tab", hl.dsp.window.move({ workspace = 11 }))
 
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
 
-b("SUPER + SHIFT + " .. 1, hl.dsp.window.move({ workspace = 1 }))
-b("SUPER + SHIFT + " .. 2, hl.dsp.window.move({ workspace = 2 }))
-b("SUPER + SHIFT + " .. 3, hl.dsp.window.move({ workspace = 3 }))
-b("SUPER + SHIFT + " .. 4, hl.dsp.window.move({ workspace = 4 }))
-b("SUPER + SHIFT + " .. 5, hl.dsp.window.move({ workspace = 5 }))
-b("SUPER + SHIFT + " .. 6, hl.dsp.window.move({ workspace = 6 }))
-b("SUPER + SHIFT + " .. 7, hl.dsp.window.move({ workspace = 7 }))
-b("SUPER + SHIFT + " .. 8, hl.dsp.window.move({ workspace = 8 }))
-b("SUPER + SHIFT + " .. 9, hl.dsp.window.move({ workspace = 9 }))
-b("SUPER + SHIFT + " .. 0, hl.dsp.window.move({ workspace = 10 }))
+b("SUPER + SHIFT + 1", hl.dsp.window.move({ workspace = 1 }))
+b("SUPER + SHIFT + 2", hl.dsp.window.move({ workspace = 2 }))
+b("SUPER + SHIFT + 3", hl.dsp.window.move({ workspace = 3 }))
+b("SUPER + SHIFT + 4", hl.dsp.window.move({ workspace = 4 }))
+b("SUPER + SHIFT + 5", hl.dsp.window.move({ workspace = 5 }))
+b("SUPER + SHIFT + 6", hl.dsp.window.move({ workspace = 6 }))
+b("SUPER + SHIFT + 7", hl.dsp.window.move({ workspace = 7 }))
+b("SUPER + SHIFT + 8", hl.dsp.window.move({ workspace = 8 }))
+b("SUPER + SHIFT + 9", hl.dsp.window.move({ workspace = 9 }))
+b("SUPER + SHIFT + 0", hl.dsp.window.move({ workspace = 10 }))
 
 b("SUPER + SHIFT + Tab", hl.dsp.window.move({ workspace = 11 }))
 

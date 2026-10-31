@@ -13,7 +13,7 @@ set notification-fg         "#ffd60a"
 set notification-error-bg   "#fafafa"
 set notification-error-fg   "#f92672"
 set notification-warning-bg "#fff2b3"
-set notification-warning-fg "#6a0228"
+set notification-warning-fg "#4a1842"
 
 set index-bg                "rgba(0,0,0,0)"
 set index-fg                "#fafafa"

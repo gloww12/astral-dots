@@ -134,6 +134,7 @@ return {
           {desc = 'Dots 󱗿', group = 'DashboardShortCutIcon', key='d', action='cd /home/glow/.dots | Telescope find_files hidden=true'},
           {desc = 'CELLS N SHIT 󰻖', group = 'RainbowDelimiterBlue', key='j', action='cd /home/glow/Documents/job/sa-codebase/ | Telescope find_files hidden=true'},
           {desc = 'Update ', group = 'DashboardPink', key='u', action='Lazy update'},
+          {desc = 'Exit ', group = 'DashboardRed', key='q', action='q'},
         },
         project = {enable = false},
         packages = {enable = false},
