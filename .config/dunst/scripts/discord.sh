@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-spath='/home/glow/Music/sound_effects/'
+spath='/home/glow/.config/dunst/sounds/'
 
 # if [[ $DUNST_SUMMARY == *'ipod touch baby (bestie 🫶💖💕)'* ]]; then
 #   play $spath"Boing.wav"
